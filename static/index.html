@@ -13,30 +13,29 @@
     <div id="status">Waiting for events...</div>
 
     <!-- UPLOAD VIDEO -->
-    <div class="row">
-      <input type="file" id="videoFile" accept="video/*">
-      <button onclick="uploadVideo()" class="primary">
-        Upload & Analyze
-      </button>
+    <div class="row-top">
+      <div id="chooseFileDiv">
+        <input type="file" id="videoFile" accept="video/*">
+      </div>
+      <div id="analyzeButtonDiv">
+        <button onclick="uploadVideo()" class="primary">Upload & Analyze</button>
+      </div>
     </div>
-
-    <br>
-    <br>
 
     <div class="video-container">
 
-    <video id="videoPlayer"
-       controls
-       preload="metadata"
-       style="
-         width: 100%;
-         max-width: 100%;
-         aspect-ratio: 16 / 9;
-         background: #000;
-         display: none;
-       ">
-</video>
-</div>
+      <video id="videoPlayer"
+        controls
+        preload="metadata"
+        style="
+          width: 100%;
+          max-width: 100%;
+          aspect-ratio: 16 / 9;
+          background: #000;
+          display: none;
+        ">
+      </video>
+    </div>
 
 
     <!-- EVENT INFO -->
@@ -69,5 +68,6 @@
   </div>
 
   <script src="/static/app.js"></script>
+
 </body>
 </html>

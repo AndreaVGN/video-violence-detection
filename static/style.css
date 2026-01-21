@@ -10,8 +10,8 @@ body {
 }
 
 .card {
-  width: min(900px, 92vw);
-  padding: 20px 22px;
+  width: min(750px, 92vw);
+  padding: 22px;
   border: 1px solid #e3e5ea;
   border-radius: 14px;
   background: #fff;
@@ -47,6 +47,14 @@ h1 {
   gap: 8px 18px;
 }
 
+.row-top {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px 18px;
+}
+
 .actions {
   margin-top: 16px;
   display: flex;
@@ -64,18 +72,30 @@ button {
   background: #fff;
 }
 
+#analyzeButtonDiv {
+  display: flex;
+  justify-content: end;
+}
+
+#chooseFileDiv {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
 button:hover {
   background: #f3f4f6;
 }
 
 button.primary {
-  background: #000;
+  width: fit-content;
+  background: green;
   color: #fff;
-  border-color: #111;
+  border-color: green;
 }
 
 button.primary:hover {
-  background: #000;
+  background: darkgreen;
 }
 
 #confirmMsg {
@@ -98,7 +118,8 @@ button.primary:hover {
 
 .video-container {
   width: 100%;
-  max-width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
   aspect-ratio: 16 / 9;
   background: #000;
 }
