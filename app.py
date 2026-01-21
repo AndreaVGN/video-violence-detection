@@ -11,6 +11,10 @@ import shutil
 import cv2
 import numpy as np
 import onnxruntime as ort
+import shutil
+HAS_FFMPEG = shutil.which("ffmpeg") is not None
+print("HAS_FFMPEG:", HAS_FFMPEG)
+
 
 # ===============================
 # CONFIG
@@ -114,13 +118,14 @@ def run_video_inference(video_path: str, save_out: bool = True):
         out_path = f"{VIDEO_OUT}/{os.path.basename(video_path)}"
         tmp_avi = out_path.replace(".mp4", ".avi")
 
+        
         out = cv2.VideoWriter(
             tmp_avi,
             cv2.VideoWriter_fourcc(*"XVID"),
             fps,
             (w, h)
-        )
-
+        ) 
+        
         print("VideoWriter opened:", out.isOpened())
         print("TMP AVI:", tmp_avi)
 
@@ -154,16 +159,23 @@ def run_video_inference(video_path: str, save_out: bool = True):
     if out:
         out.release()
 
-        # CONVERSIONE AVI → MP4 H.264 (browser safe)
-        cmd = (
-            f"ffmpeg -y -loglevel error "
-            f"-i {tmp_avi} "
-            f"-c:v libx264 -pix_fmt yuv420p {out_path}"
-        )
-        os.system(cmd)
+        if HAS_FFMPEG:
+            cmd = (
+                f"ffmpeg -y -loglevel error "
+                f"-i {tmp_avi} "
+                f"-c:v libx264 -pix_fmt yuv420p {out_path}"
+            )
+            ret = os.system(cmd)
+            print("FFMPEG RET:", ret)
 
-        if os.path.exists(tmp_avi):
-            os.remove(tmp_avi)
+            if ret == 0 and os.path.exists(out_path):
+                os.remove(tmp_avi)
+            else:
+                print("FFMPEG FAILED, keeping AVI")
+                out_path = tmp_avi
+        else:
+            print("FFMPEG NOT FOUND, keeping AVI")
+            out_path = tmp_avi
 
     elapsed_ms = int((time.time() - t0) * 1000)
     return violence, frames, elapsed_ms
@@ -287,6 +299,33 @@ async def process_frames(
     append_log(entry)
     return JSONResponse(entry)
 
+# ---- LEGACY (UI) ----
+@app.post("/api/process")
+async def process_legacy(file: UploadFile = File(...)):
+    clip_id = str(uuid.uuid4())
+    in_path = f"{VIDEO_IN}/{clip_id}.mp4"
+
+    with open(in_path, "wb") as f:
+        shutil.copyfileobj(file.file, f)
+
+    violence, frames, elapsed = run_video_inference(in_path, save_out=True)
+
+    global LAST_EVENT
+    LAST_EVENT = {
+        "clip_id": clip_id,
+        "prediction": "Violence" if violence else "NoViolence",
+        "confirmed": False,
+        "mode": "video",
+        "device_id": "PC",
+        "ts_utc_ms": int(time.time() * 1000),
+        "timings_ms": {
+            "total": elapsed,
+            "frames": frames
+        }
+    }
+
+    return JSONResponse(LAST_EVENT)
+
 
 # ---- UI ----
 @app.get("/api/state")
@@ -298,7 +337,32 @@ def state():
 
 @app.get("/api/view/{clip_id}")
 def view_video(clip_id: str):
-    return FileResponse(
-        f"{VIDEO_OUT}/{clip_id}.mp4",
-        media_type="video/mp4"
-    )
+    mp4 = f"{VIDEO_OUT}/{clip_id}.mp4"
+    avi = f"{VIDEO_OUT}/{clip_id}.avi"
+
+    if os.path.exists(mp4):
+        return FileResponse(mp4, media_type="video/mp4")
+
+    if os.path.exists(avi):
+        return FileResponse(avi, media_type="video/x-msvideo")
+
+    return JSONResponse({"error": "video not ready"}, status_code=404)
+
+
+
+@app.post("/api/confirm")
+async def confirm_event(payload: dict):
+    global LAST_EVENT
+
+    if not LAST_EVENT:
+        return {"ok": False, "error": "no event"}
+
+    label = payload.get("label")
+    if label not in ["violent", "not_violent"]:
+        return {"ok": False, "error": "invalid label"}
+
+    LAST_EVENT["confirmed"] = True
+    LAST_EVENT["human_label"] = label
+
+    return {"ok": True}
+
