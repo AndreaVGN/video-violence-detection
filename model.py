@@ -1,3 +1,4 @@
+'''
 # model.py
 import cv2
 import time
@@ -86,3 +87,4 @@ def process_video(video_path, output_dir="videos/output", conf_thres=0.4):
         "time_ms": infer_time_ms,
         "video_path": out_path
     }
+'''

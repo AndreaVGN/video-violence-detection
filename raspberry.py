@@ -90,6 +90,7 @@ with open(video_path, "rb") as f:
         data={
             "clip_id": clip_id,
             "device_id": DEVICE_ID,
+            "sampling_fps": FPS,
             "ts_start_capture": ts_start_capture,
             "ts_end_capture": ts_end_capture,
             "ts_start_upload": ts_start_upload,

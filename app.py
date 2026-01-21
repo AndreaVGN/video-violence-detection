@@ -49,7 +49,7 @@ def ui():
         return f.read()
 
 # ===============================
-# ONNX SESSION (LOAD ONCE)
+# ONNX SESSION
 # ===============================
 session = ort.InferenceSession(
     ONNX_MODEL_PATH,
@@ -65,32 +65,37 @@ LAST_EVENT = None
 # HELPERS
 # ===============================
 def preprocess(frame: np.ndarray) -> np.ndarray:
-    """
-    Forza SEMPRE input BCHW 1x3x640x640
-    """
-    img = cv2.resize(frame, (INPUT_SIZE, INPUT_SIZE), interpolation=cv2.INTER_LINEAR)
+    img = cv2.resize(frame, (INPUT_SIZE, INPUT_SIZE))
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     img = img.astype(np.float32) / 255.0
-    img = np.transpose(img, (2, 0, 1))  # HWC -> CHW
-    img = np.expand_dims(img, axis=0)   # -> BCHW
+    img = np.transpose(img, (2, 0, 1))
+    img = np.expand_dims(img, axis=0)
     return img
 
 
 def append_log(entry: dict):
     data = []
+
     if os.path.exists(LOG_PATH):
-        with open(LOG_PATH, "r") as f:
-            data = json.load(f)
+        try:
+            with open(LOG_PATH, "r") as f:
+                content = f.read().strip()
+                if content:
+                    data = json.loads(content)
+        except json.JSONDecodeError:
+            data = []
+
     data.append(entry)
+
     with open(LOG_PATH, "w") as f:
         json.dump(data, f, indent=2)
 
+
 # ===============================
-# CORE INFERENCE (VIDEO)
+# CORE INFERENCE
 # ===============================
 def run_video_inference(video_path: str, save_out: bool = True):
     cap = cv2.VideoCapture(video_path)
-
     if not cap.isOpened():
         raise RuntimeError("Cannot open video")
 
@@ -102,14 +107,22 @@ def run_video_inference(video_path: str, save_out: bool = True):
     scale_y = h / INPUT_SIZE
 
     out = None
+    out_path = None
+    tmp_avi = None
+
     if save_out:
         out_path = f"{VIDEO_OUT}/{os.path.basename(video_path)}"
+        tmp_avi = out_path.replace(".mp4", ".avi")
+
         out = cv2.VideoWriter(
-            out_path,
-            cv2.VideoWriter_fourcc(*"mp4v"),
+            tmp_avi,
+            cv2.VideoWriter_fourcc(*"XVID"),
             fps,
             (w, h)
         )
+
+        print("VideoWriter opened:", out.isOpened())
+        print("TMP AVI:", tmp_avi)
 
     violence = False
     frames = 0
@@ -122,7 +135,6 @@ def run_video_inference(video_path: str, save_out: bool = True):
 
         frames += 1
         inp = preprocess(frame)
-
         outputs = session.run(None, {input_name: inp})[0][0]
 
         for x1, y1, x2, y2, conf, cls in outputs:
@@ -133,8 +145,7 @@ def run_video_inference(video_path: str, save_out: bool = True):
                     y1 = int(y1 * scale_y)
                     x2 = int(x2 * scale_x)
                     y2 = int(y2 * scale_y)
-                    cv2.rectangle(frame, (x1, y1), (x2, y2),
-                                  (0, 0, 255), 2)
+                    cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 255), 2)
 
         if out:
             out.write(frame)
@@ -143,46 +154,33 @@ def run_video_inference(video_path: str, save_out: bool = True):
     if out:
         out.release()
 
+        # CONVERSIONE AVI → MP4 H.264 (browser safe)
+        cmd = (
+            f"ffmpeg -y -loglevel error "
+            f"-i {tmp_avi} "
+            f"-c:v libx264 -pix_fmt yuv420p {out_path}"
+        )
+        os.system(cmd)
+
+        if os.path.exists(tmp_avi):
+            os.remove(tmp_avi)
+
     elapsed_ms = int((time.time() - t0) * 1000)
     return violence, frames, elapsed_ms
+
 
 # ===============================
 # ENDPOINTS
 # ===============================
 
-# ---- LEGACY UI ----
-@app.post("/api/process")
-async def process_legacy(file: UploadFile = File(...)):
-    clip_id = str(uuid.uuid4())
-    in_path = f"{VIDEO_IN}/{clip_id}.mp4"
-
-    with open(in_path, "wb") as f:
-        shutil.copyfileobj(file.file, f)
-
-    violence, frames, elapsed = run_video_inference(in_path, save_out=True)
-
-    global LAST_EVENT
-    LAST_EVENT = {
-        "clip_id": clip_id,
-        "prediction": "Violence" if violence else "NoViolence",
-        "confirmed": False,
-        "mode": "video",
-        "device_id": "PC",
-        "ts_utc_ms": int(time.time() * 1000),
-        "timings_ms": {
-            "total": elapsed,
-            "frames": frames
-        }
-    }
-
-    return JSONResponse(LAST_EVENT)
-
-# ---- FULL VIDEO EXPERIMENT ----
+# ---- FULL VIDEO ----
 @app.post("/api/process_video")
 async def process_video(
     file: UploadFile = File(...),
     clip_id: str = Form(...),
     device_id: str = Form(...),
+    sampling_fps: int | None = Form(None),
+    mode: str | None = Form(None),
     ts_start_capture: int = Form(...),
     ts_end_capture: int = Form(...),
     ts_start_upload: int = Form(...)
@@ -200,10 +198,11 @@ async def process_video(
 
     entry = {
         "clip_id": clip_id,
-        "mode": "video",
+        "mode": mode,
         "device_id": device_id,
+        "sampling_fps": 10 if sampling_fps is None else sampling_fps,
         "prediction": "Violence" if violence else "NoViolence",
-        "frames": frames,
+        "num_frames": frames,
         "timings_ms": {
             "capture": ts_end_capture - ts_start_capture,
             "upload": ts_server_received - ts_start_upload,
@@ -213,14 +212,28 @@ async def process_video(
     }
 
     append_log(entry)
+
+    global LAST_EVENT
+    LAST_EVENT = {
+        "clip_id": clip_id,
+        "mode": mode or "video",
+        "device_id": device_id,
+        "prediction": entry["prediction"],
+        "confirmed": False,
+        "ts_utc_ms": int(time.time() * 1000),
+        "timings_ms": entry["timings_ms"]
+    }
+
     return JSONResponse(entry)
 
-# ---- FRAME SAMPLING EXPERIMENT ----
+
+# ---- FRAME SAMPLING ----
 @app.post("/api/process_frames")
 async def process_frames(
     clip_id: str = Form(...),
     device_id: str = Form(...),
     sampling_fps: int = Form(...),
+    mode: str = Form(...),
     num_frames: int = Form(...),
     ts_start_sampling: int = Form(...),
     ts_end_sampling: int = Form(...),
@@ -235,7 +248,6 @@ async def process_frames(
     for f in frames:
         img_bytes = await f.read()
         img = cv2.imdecode(np.frombuffer(img_bytes, np.uint8), cv2.IMREAD_COLOR)
-
         if img is None:
             continue
 
@@ -253,16 +265,20 @@ async def process_frames(
     inf_ms = int((time.time() - t0) * 1000)
     ts_done = int(time.time() * 1000)
 
+    video_path = f"{VIDEO_IN}/{clip_id}.mp4"
+    if os.path.exists(video_path):
+        run_video_inference(video_path, save_out=True)
+
     entry = {
         "clip_id": clip_id,
-        "mode": "frames",
+        "mode": mode,
+        "device_id": device_id,
         "sampling_fps": sampling_fps,
         "num_frames": num_frames,
-        "device_id": device_id,
         "prediction": "Violence" if violence else "NoViolence",
         "timings_ms": {
             "sampling": ts_end_sampling - ts_start_sampling,
-            "upload": ts_server_received - ts_start_send,
+            "upload": ts_server_received - ts_start_send if (ts_server_received - ts_start_send) > 0 else 0,
             "inference": inf_ms,
             "end_to_end": ts_done - ts_start_sampling
         }
@@ -271,7 +287,8 @@ async def process_frames(
     append_log(entry)
     return JSONResponse(entry)
 
-# ---- UI SUPPORT ----
+
+# ---- UI ----
 @app.get("/api/state")
 def state():
     return {
@@ -279,15 +296,9 @@ def state():
         "last_event": LAST_EVENT
     }
 
-@app.post("/api/confirm")
-def confirm(data: dict):
-    global LAST_EVENT
-    if LAST_EVENT and data["clip_id"] == LAST_EVENT["clip_id"]:
-        LAST_EVENT["confirmed"] = True
-        LAST_EVENT["label"] = data["label"]
-        return {"ok": True}
-    return {"ok": False}
-
 @app.get("/api/view/{clip_id}")
 def view_video(clip_id: str):
-    return FileResponse(f"{VIDEO_OUT}/{clip_id}.mp4", media_type="video/mp4")
+    return FileResponse(
+        f"{VIDEO_OUT}/{clip_id}.mp4",
+        media_type="video/mp4"
+    )
