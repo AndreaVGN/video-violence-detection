@@ -1,0 +1,11 @@
+# === Server / PC ===
+ultralytics==8.0.134
+
+fastapi==0.95.2
+uvicorn[standard]
+
+opencv-python
+torch
+torchvision
+numpy
+python-multipart

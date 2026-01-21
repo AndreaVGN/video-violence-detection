@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>SafeGo Violence Detection</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="card">
+    <div class="brand">SafeGo</div>
+
+    <h1>Video Violence Detection</h1>
+    <div id="status">Waiting for events...</div>
+
+    <!-- UPLOAD VIDEO -->
+    <div class="row">
+      <input type="file" id="videoFile" accept="video/*">
+      <button onclick="uploadVideo()" class="primary">
+        Upload & Analyze
+      </button>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="video-container">
+
+    <video id="videoPlayer"
+       controls
+       preload="metadata"
+       style="
+         width: 100%;
+         max-width: 100%;
+         aspect-ratio: 16 / 9;
+         background: #000;
+         display: none;
+       ">
+</video>
+</div>
+
+
+    <!-- EVENT INFO -->
+    <div class="row">
+      <div><b>Server:</b> <span id="serverMode">-</span></div>
+      <div><b>Mode:</b> <span id="mode">-</span></div>
+      <div><b>Device:</b> <span id="device">-</span></div>
+      <div><b>Clip ID:</b> <span id="clip">-</span></div>
+      <div><b>Timestamp:</b> <span id="ts">-</span></div>
+    </div>
+
+    <div class="row">
+      <div><b>Prediction:</b> <span id="pred">-</span></div>
+    </div>
+
+    <div class="row">
+      <div><b>Timings (ms):</b> <span id="timings">-</span></div>
+    </div>
+
+    <div id="confirmMsg"></div>
+
+    <div class="actions">
+      <button id="confirmBtn" class="primary" style="display:none;">
+        Confirm Violence
+      </button>
+      <button id="notViolentBtn" style="display:none;">
+        Not Violent
+      </button>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

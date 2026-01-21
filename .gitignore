@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Videos / outputs
+videos/
+# logs/
+*.mp4
+
+# Models (se non vuoi versionarli)
+# *.pt
+# *.onnx
+
+# OS
+.DS_Store
+Thumbs.db
