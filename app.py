@@ -195,7 +195,8 @@ async def process_video(
     mode: str | None = Form(None),
     ts_start_capture: int = Form(...),
     ts_end_capture: int = Form(...),
-    ts_start_upload: int = Form(...)
+    ts_start_upload: int = Form(...),
+    ground_truth: str = Form(...),
 ):
     in_path = f"{VIDEO_IN}/{clip_id}.mp4"
 
@@ -220,7 +221,11 @@ async def process_video(
             "upload": (ts_start_upload - ts_server_received),
             "inference": inf_ms,
             "end_to_end": ts_done - ts_start_capture
-        }
+        },
+        "ground_truth": ground_truth,
+        "is_correct": (("Violence" if violence else "NoViolence") == ground_truth)
+
+
     }
 
     append_log(entry)
@@ -250,7 +255,8 @@ async def process_frames(
     ts_start_sampling: int = Form(...),
     ts_end_sampling: int = Form(...),
     ts_start_send: int = Form(...),
-    frames: list[UploadFile] = File(...)
+    frames: list[UploadFile] = File(...),
+    ground_truth: str = Form(...)
 ):
     ts_server_received = int(time.time() * 1000)
 
@@ -293,7 +299,9 @@ async def process_frames(
             "upload": (ts_start_send - ts_server_received),
             "inference": inf_ms,
             "end_to_end": ts_done - ts_start_sampling
-        }
+        },
+        "ground_truth": ground_truth,
+        "is_correct": (("Violence" if violence else "NoViolence") == ground_truth)
     }
 
     append_log(entry)

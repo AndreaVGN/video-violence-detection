@@ -4,6 +4,8 @@ import os
 import uuid
 import time
 import shutil
+import sys
+
 
 # =========================
 # CONFIG
@@ -29,6 +31,17 @@ DEVICE_ID = "raspberry_pi_cam_v3"
 
 API_PROCESS_VIDEO = f"http://{PC_IP}:{PC_PORT}/api/process_video"
 API_PROCESS_FRAMES = f"http://{PC_IP}:{PC_PORT}/api/process_frames"
+
+# =========================
+# GROUND TRUTH (CLI)
+# =========================
+if len(sys.argv) < 2 or sys.argv[1] not in ["Violence", "NoViolence"]:
+    print("Usage: python raspberry.py [Violence|NoViolence]")
+    sys.exit(1)
+
+GROUND_TRUTH = sys.argv[1]
+print("[INFO] Ground truth:", GROUND_TRUTH)
+
 
 # =========================
 # RECORD VIDEO
@@ -108,7 +121,8 @@ with open(video_path, "rb") as f:
             "ts_start_capture": ts_start_capture,
             "ts_end_capture": ts_end_capture,
             "ts_start_upload": ts_start_upload,
-            "mode": "video"
+            "mode": "video",
+            "ground_truth": GROUND_TRUTH
         },
         timeout=120
     )
@@ -151,7 +165,8 @@ for rate in SAMPLING_RATES:
             "ts_start_sampling": ts_start_sampling,
             "ts_end_sampling": ts_end_sampling,
             "ts_start_send": ts_start_send,
-            "mode": "frames"
+            "mode": "frames",
+            "ground_truth": GROUND_TRUTH
         },
         timeout=120
     )
