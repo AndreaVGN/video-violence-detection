@@ -89,12 +89,18 @@ async function tick() {
     
 
     const timings = ev.timings_ms || {};
-    document.getElementById("timings").innerText =
-      Object.keys(timings).length
-        ? Object.keys(timings)
-            .map(k => `${k}:${Number(timings[k]).toFixed(1)}`)
-            .join(" | ")
-        : "-";
+
+document.getElementById("timings").innerText =
+  Object.keys(timings).length
+    ? Object.entries(timings)
+        .map(([k, v]) => {
+          const n = Math.abs(parseFloat(v));
+          return `${k}:${n.toFixed(1)}`;
+        })
+        .join(" | ")
+    : "-";
+
+
 
     // VIDEO PREVIEW
     if (ev.clip_id && ev.clip_id !== CURRENT_CLIP_ID) {

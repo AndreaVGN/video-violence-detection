@@ -1,114 +1,212 @@
 [
   {
-    "clip_id": "4985fbf6-03ce-4267-b21a-c55dd727d7cc",
+    "clip_id": "89c208ce-96af-423a-ae67-e46b39e290e8",
     "mode": "video",
     "device_id": "raspberry_pi_cam_v3",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "num_frames": 43,
     "timings_ms": {
-      "capture": 7905,
-      "upload": 403,
-      "inference": 15264,
-      "end_to_end": 23616
+      "capture": 6063,
+      "upload": -747,
+      "inference": 16392,
+      "end_to_end": 21771
     }
   },
   {
-    "clip_id": "4985fbf6-03ce-4267-b21a-c55dd727d7cc",
+    "clip_id": "89c208ce-96af-423a-ae67-e46b39e290e8",
     "mode": "frames",
     "device_id": "raspberry_pi_cam_v3",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
     "timings_ms": {
-      "sampling": 1357,
+      "sampling": 1390,
       "upload": 0,
-      "inference": 1492,
-      "end_to_end": 2733
+      "inference": 1424,
+      "end_to_end": 2239
     }
   },
   {
-    "clip_id": "4985fbf6-03ce-4267-b21a-c55dd727d7cc",
+    "clip_id": "89c208ce-96af-423a-ae67-e46b39e290e8",
     "mode": "frames",
     "device_id": "raspberry_pi_cam_v3",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
     "timings_ms": {
-      "sampling": 958,
-      "upload": 87,
-      "inference": 3310,
-      "end_to_end": 4357
+      "sampling": 1414,
+      "upload": 0,
+      "inference": 1762,
+      "end_to_end": 2704
     }
   },
   {
-    "clip_id": "4985fbf6-03ce-4267-b21a-c55dd727d7cc",
+    "clip_id": "89c208ce-96af-423a-ae67-e46b39e290e8",
     "mode": "frames",
     "device_id": "raspberry_pi_cam_v3",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
     "timings_ms": {
-      "sampling": 1236,
+      "sampling": 1925,
       "upload": 0,
-      "inference": 8121,
-      "end_to_end": 9251
+      "inference": 7882,
+      "end_to_end": 9034
     }
   },
   {
-    "clip_id": "82f2ad82-05d3-42a6-b40c-813d392106b0",
+    "clip_id": "68e0ba50-fed6-492e-a347-383f87cc37e9",
     "mode": "video",
     "device_id": "raspberry_pi_cam_v3",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "num_frames": 43,
     "timings_ms": {
-      "capture": 6111,
-      "upload": 44,
-      "inference": 16414,
-      "end_to_end": 22628
+      "capture": 6049,
+      "upload": -658,
+      "inference": 16664,
+      "end_to_end": 22118
     }
   },
   {
-    "clip_id": "82f2ad82-05d3-42a6-b40c-813d392106b0",
+    "clip_id": "68e0ba50-fed6-492e-a347-383f87cc37e9",
     "mode": "frames",
     "device_id": "raspberry_pi_cam_v3",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
     "timings_ms": {
-      "sampling": 972,
-      "upload": 241,
-      "inference": 1478,
-      "end_to_end": 2693
+      "sampling": 1324,
+      "upload": 715,
+      "inference": 1462,
+      "end_to_end": 2072
     }
   },
   {
-    "clip_id": "82f2ad82-05d3-42a6-b40c-813d392106b0",
+    "clip_id": "68e0ba50-fed6-492e-a347-383f87cc37e9",
     "mode": "frames",
     "device_id": "raspberry_pi_cam_v3",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
     "timings_ms": {
-      "sampling": 1039,
-      "upload": 162,
-      "inference": 3240,
-      "end_to_end": 4442
+      "sampling": 1387,
+      "upload": 688,
+      "inference": 1764,
+      "end_to_end": 2466
     }
   },
   {
-    "clip_id": "82f2ad82-05d3-42a6-b40c-813d392106b0",
+    "clip_id": "68e0ba50-fed6-492e-a347-383f87cc37e9",
     "mode": "frames",
     "device_id": "raspberry_pi_cam_v3",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
     "timings_ms": {
-      "sampling": 1289,
-      "upload": 0,
-      "inference": 5390,
-      "end_to_end": 6563
+      "sampling": 1906,
+      "upload": 565,
+      "inference": 7994,
+      "end_to_end": 9339
+    }
+  },
+  {
+    "clip_id": "8001c67f-96c4-401c-804c-59698e118b22",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "timings_ms": {
+      "sampling": 1425,
+      "upload": 389,
+      "inference": 1449,
+      "end_to_end": 2487
+    }
+  },
+  {
+    "clip_id": "8001c67f-96c4-401c-804c-59698e118b22",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "timings_ms": {
+      "sampling": 1547,
+      "upload": 533,
+      "inference": 1578,
+      "end_to_end": 2594
+    }
+  },
+  {
+    "clip_id": "8001c67f-96c4-401c-804c-59698e118b22",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "timings_ms": {
+      "sampling": 2187,
+      "upload": 541,
+      "inference": 4122,
+      "end_to_end": 5773
+    }
+  },
+  {
+    "clip_id": "0a151015-1678-4f36-9a32-03eaeaa588ea",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6064,
+      "upload": 582,
+      "inference": 10525,
+      "end_to_end": 16060
+    }
+  },
+  {
+    "clip_id": "0a151015-1678-4f36-9a32-03eaeaa588ea",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "timings_ms": {
+      "sampling": 1180,
+      "upload": 610,
+      "inference": 770,
+      "end_to_end": 1342
+    }
+  },
+  {
+    "clip_id": "0a151015-1678-4f36-9a32-03eaeaa588ea",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "timings_ms": {
+      "sampling": 1587,
+      "upload": 577,
+      "inference": 3330,
+      "end_to_end": 4342
+    }
+  },
+  {
+    "clip_id": "0a151015-1678-4f36-9a32-03eaeaa588ea",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "timings_ms": {
+      "sampling": 1914,
+      "upload": 518,
+      "inference": 4045,
+      "end_to_end": 5445
     }
   }
 ]

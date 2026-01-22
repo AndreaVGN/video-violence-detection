@@ -217,7 +217,7 @@ async def process_video(
         "num_frames": frames,
         "timings_ms": {
             "capture": ts_end_capture - ts_start_capture,
-            "upload": ts_server_received - ts_start_upload,
+            "upload": (ts_start_upload - ts_server_received),
             "inference": inf_ms,
             "end_to_end": ts_done - ts_start_capture
         }
@@ -290,7 +290,7 @@ async def process_frames(
         "prediction": "Violence" if violence else "NoViolence",
         "timings_ms": {
             "sampling": ts_end_sampling - ts_start_sampling,
-            "upload": ts_server_received - ts_start_send if (ts_server_received - ts_start_send) > 0 else 0,
+            "upload": (ts_start_send - ts_server_received),
             "inference": inf_ms,
             "end_to_end": ts_done - ts_start_sampling
         }
