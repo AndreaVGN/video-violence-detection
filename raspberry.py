@@ -31,6 +31,8 @@ DEVICE_ID = "raspberry_pi_cam_v3"
 
 API_PROCESS_VIDEO = f"http://{PC_IP}:{PC_PORT}/api/process_video"
 API_PROCESS_FRAMES = f"http://{PC_IP}:{PC_PORT}/api/process_frames"
+API_UPDATE_UPLOAD = f"http://{PC_IP}:{PC_PORT}/api/update_upload"
+
 
 # =========================
 # GROUND TRUTH (CLI)
@@ -128,6 +130,19 @@ with open(video_path, "rb") as f:
     )
 
 ts_end_upload = int(time.time() * 1000)
+upload_client_ms = ts_end_upload - ts_start_upload
+
+requests.post(
+    API_UPDATE_UPLOAD,
+    data={
+        "clip_id": clip_id,
+        "mode": "video",
+        "upload_client_ms": upload_client_ms
+    },
+    timeout=10
+)
+
+
 
 print("[INFO] VIDEO RESPONSE:", r.status_code, r.text)
 
@@ -172,6 +187,21 @@ for rate in SAMPLING_RATES:
     )
 
     ts_end_send = int(time.time() * 1000)
+    ts_end_send = int(time.time() * 1000)
+    upload_client_ms = ts_end_send - ts_start_send
+
+    requests.post(
+    API_UPDATE_UPLOAD,
+    data={
+        "clip_id": clip_id,
+        "mode": "frames",
+        "sampling_fps": rate,
+        "upload_client_ms": upload_client_ms
+    },
+    timeout=10
+)
+
+
 
     print(
         f"[INFO] FRAMES RESPONSE @ {rate} fps:",

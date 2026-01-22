@@ -223,9 +223,7 @@ async def process_video(
         "num_frames": frames,
         "timings_ms": {
             "capture": ts_end_capture - ts_start_capture,
-            "upload": (ts_start_upload - ts_server_received),
-            "inference": inf_ms,
-            "end_to_end": ts_done - ts_start_capture
+            "inference": inf_ms
         },
         "ground_truth": ground_truth,
         "is_correct": (("Violence" if violence else "NoViolence") == ground_truth)
@@ -301,9 +299,7 @@ async def process_frames(
         "prediction": "Violence" if violence else "NoViolence",
         "timings_ms": {
             "sampling": ts_end_sampling - ts_start_sampling,
-            "upload": (ts_start_send - ts_server_received),
-            "inference": inf_ms,
-            "end_to_end": ts_done - ts_start_sampling
+            "inference": inf_ms
         },
         "ground_truth": ground_truth,
         "is_correct": (("Violence" if violence else "NoViolence") == ground_truth)
@@ -377,4 +373,38 @@ async def confirm_event(payload: dict):
     LAST_EVENT["human_label"] = label
 
     return {"ok": True}
+
+@app.post("/api/update_upload")
+async def update_upload(
+    clip_id: str = Form(...),
+    mode: str = Form(...),            # "video" o "frames"
+    sampling_fps: int | None = Form(None),
+    upload_client_ms: int = Form(...)
+):
+    if not os.path.exists(LOG_PATH):
+        return {"ok": False, "error": "log not found"}
+
+    with open(LOG_PATH, "r") as f:
+        data = json.load(f)
+
+    updated = False
+    for entry in reversed(data):
+        if (
+            entry["clip_id"] == clip_id
+            and entry["mode"] == mode
+            and (sampling_fps is None or entry.get("sampling_fps") == sampling_fps)
+        ):
+            if "timings_ms" not in entry:
+                entry["timings_ms"] = {}
+
+            entry["timings_ms"]["upload_client"] = upload_client_ms
+            updated = True
+            break
+
+    if updated:
+        with open(LOG_PATH, "w") as f:
+            json.dump(data, f, indent=2)
+
+    return {"ok": updated}
+
 
