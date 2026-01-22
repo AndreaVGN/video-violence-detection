@@ -57,8 +57,13 @@ def ui():
 # ===============================
 session = ort.InferenceSession(
     ONNX_MODEL_PATH,
-    providers=["CPUExecutionProvider"]
+    providers=["DmlExecutionProvider", "CPUExecutionProvider"]
 )
+
+
+print("Available providers:", ort.get_available_providers())
+print("Session providers:", session.get_providers())
+
 
 input_name = session.get_inputs()[0].name
 print("ONNX input shape:", session.get_inputs()[0].shape)
