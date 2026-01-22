@@ -201,8 +201,6 @@ for rate in SAMPLING_RATES:
     timeout=10
 )
 
-
-
     print(
         f"[INFO] FRAMES RESPONSE @ {rate} fps:",
         r.status_code,

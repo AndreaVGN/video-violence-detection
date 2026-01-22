@@ -22,15 +22,14 @@ print("HAS_FFMPEG:", HAS_FFMPEG)
 ONNX_MODEL_PATH = "yolo_small_weights.onnx"
 INPUT_SIZE = 640
 VIOLENCE_CLASS_ID = 1
-CONF_THRESH = 0.4
+
+CONF_THRESHOLDS = [round(x / 10, 1) for x in range(1, 10)]  # 0.1 → 0.9
+DEFAULT_THRESH = 0.5
 
 VIDEO_IN = "videos/input"
 VIDEO_OUT = "videos/output"
 LOG_PATH = "logs/experiments.json"
 
-os.makedirs(VIDEO_IN, exist_ok=True)
-os.makedirs(VIDEO_OUT, exist_ok=True)
-os.makedirs("logs", exist_ok=True)
 
 # ===============================
 # APP
@@ -73,6 +72,21 @@ LAST_EVENT = None
 # ===============================
 # HELPERS
 # ===============================
+def evaluate_thresholds(outputs, thresholds):
+    """
+    outputs: Nx6 -> x1,y1,x2,y2,conf,cls
+    """
+    result = {t: False for t in thresholds}
+
+    for *_, conf, cls in outputs:
+        if int(cls) != VIOLENCE_CLASS_ID:
+            continue
+        for t in thresholds:
+            if conf >= t:
+                result[t] = True
+
+    return result
+
 def preprocess(frame: np.ndarray) -> np.ndarray:
     img = cv2.resize(frame, (INPUT_SIZE, INPUT_SIZE))
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -123,18 +137,14 @@ def run_video_inference(video_path: str, save_out: bool = True):
         out_path = f"{VIDEO_OUT}/{os.path.basename(video_path)}"
         tmp_avi = out_path.replace(".mp4", ".avi")
 
-        
         out = cv2.VideoWriter(
             tmp_avi,
             cv2.VideoWriter_fourcc(*"XVID"),
             fps,
             (w, h)
-        ) 
-        
-        print("VideoWriter opened:", out.isOpened())
-        print("TMP AVI:", tmp_avi)
+        )
 
-    violence = False
+    violence_per_thresh = {t: False for t in CONF_THRESHOLDS}
     frames = 0
     t0 = time.time()
 
@@ -147,10 +157,15 @@ def run_video_inference(video_path: str, save_out: bool = True):
         inp = preprocess(frame)
         outputs = session.run(None, {input_name: inp})[0][0]
 
-        for x1, y1, x2, y2, conf, cls in outputs:
-            if int(cls) == VIOLENCE_CLASS_ID and conf >= CONF_THRESH:
-                violence = True
-                if save_out:
+        frame_results = evaluate_thresholds(outputs, CONF_THRESHOLDS)
+        for t, v in frame_results.items():
+            if v:
+                violence_per_thresh[t] = True
+
+        # Bounding box SOLO per threshold di default
+        if save_out:
+            for x1, y1, x2, y2, conf, cls in outputs:
+                if int(cls) == VIOLENCE_CLASS_ID and conf >= DEFAULT_THRESH:
                     x1 = int(x1 * scale_x)
                     y1 = int(y1 * scale_y)
                     x2 = int(x2 * scale_x)
@@ -171,19 +186,16 @@ def run_video_inference(video_path: str, save_out: bool = True):
                 f"-c:v libx264 -pix_fmt yuv420p {out_path}"
             )
             ret = os.system(cmd)
-            print("FFMPEG RET:", ret)
-
             if ret == 0 and os.path.exists(out_path):
                 os.remove(tmp_avi)
             else:
-                print("FFMPEG FAILED, keeping AVI")
                 out_path = tmp_avi
         else:
-            print("FFMPEG NOT FOUND, keeping AVI")
             out_path = tmp_avi
 
     elapsed_ms = int((time.time() - t0) * 1000)
-    return violence, frames, elapsed_ms
+    return violence_per_thresh, frames, elapsed_ms
+
 
 
 # ===============================
@@ -208,27 +220,29 @@ async def process_video(
     with open(in_path, "wb") as f:
         shutil.copyfileobj(file.file, f)
 
-    ts_server_received = int(time.time() * 1000)
+    violence_map, frames, inf_ms = run_video_inference(in_path, save_out=True)
 
-    violence, frames, inf_ms = run_video_inference(in_path, save_out=True)
-
-    ts_done = int(time.time() * 1000)
+    main_prediction = (
+        "Violence" if violence_map[DEFAULT_THRESH] else "NoViolence"
+    )
 
     entry = {
         "clip_id": clip_id,
         "mode": mode,
         "device_id": device_id,
         "sampling_fps": 10 if sampling_fps is None else sampling_fps,
-        "prediction": "Violence" if violence else "NoViolence",
+        "prediction": main_prediction,
+        "predictions_by_threshold": {
+            str(t): ("Violence" if violence_map[t] else "NoViolence")
+            for t in CONF_THRESHOLDS
+        },
         "num_frames": frames,
         "timings_ms": {
             "capture": ts_end_capture - ts_start_capture,
             "inference": inf_ms
         },
         "ground_truth": ground_truth,
-        "is_correct": (("Violence" if violence else "NoViolence") == ground_truth)
-
-
+        "is_correct": (main_prediction == ground_truth)
     }
 
     append_log(entry)
@@ -238,7 +252,7 @@ async def process_video(
         "clip_id": clip_id,
         "mode": mode or "video",
         "device_id": device_id,
-        "prediction": entry["prediction"],
+        "prediction": main_prediction,
         "confirmed": False,
         "ts_utc_ms": int(time.time() * 1000),
         "timings_ms": entry["timings_ms"]
@@ -261,9 +275,7 @@ async def process_frames(
     frames: list[UploadFile] = File(...),
     ground_truth: str = Form(...)
 ):
-    ts_server_received = int(time.time() * 1000)
-
-    violence = False
+    violence_per_thresh = {t: False for t in CONF_THRESHOLDS}
     t0 = time.time()
 
     for f in frames:
@@ -275,20 +287,16 @@ async def process_frames(
         inp = preprocess(img)
         outputs = session.run(None, {input_name: inp})[0][0]
 
-        for *_, conf, cls in outputs:
-            if int(cls) == VIOLENCE_CLASS_ID and conf >= CONF_THRESH:
-                violence = True
-                break
-
-        if violence:
-            break
+        frame_results = evaluate_thresholds(outputs, CONF_THRESHOLDS)
+        for t, v in frame_results.items():
+            if v:
+                violence_per_thresh[t] = True
 
     inf_ms = int((time.time() - t0) * 1000)
-    ts_done = int(time.time() * 1000)
 
-    video_path = f"{VIDEO_IN}/{clip_id}.mp4"
-    if os.path.exists(video_path):
-        run_video_inference(video_path, save_out=True)
+    main_prediction = (
+        "Violence" if violence_per_thresh[DEFAULT_THRESH] else "NoViolence"
+    )
 
     entry = {
         "clip_id": clip_id,
@@ -296,17 +304,22 @@ async def process_frames(
         "device_id": device_id,
         "sampling_fps": sampling_fps,
         "num_frames": num_frames,
-        "prediction": "Violence" if violence else "NoViolence",
+        "prediction": main_prediction,
+        "predictions_by_threshold": {
+            str(t): ("Violence" if violence_per_thresh[t] else "NoViolence")
+            for t in CONF_THRESHOLDS
+        },
         "timings_ms": {
             "sampling": ts_end_sampling - ts_start_sampling,
             "inference": inf_ms
         },
         "ground_truth": ground_truth,
-        "is_correct": (("Violence" if violence else "NoViolence") == ground_truth)
+        "is_correct": (main_prediction == ground_truth)
     }
 
     append_log(entry)
     return JSONResponse(entry)
+
 
 # ---- LEGACY (UI) ----
 @app.post("/api/process")

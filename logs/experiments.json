@@ -1,452 +1,6242 @@
 [
   {
-    "clip_id": "89c208ce-96af-423a-ae67-e46b39e290e8",
-    "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 10,
-    "prediction": "NoViolence",
-    "num_frames": 43,
-    "timings_ms": {
-      "capture": 6063,
-      "upload": -747,
-      "inference": 16392,
-      "end_to_end": 21771
-    }
-  },
-  {
-    "clip_id": "89c208ce-96af-423a-ae67-e46b39e290e8",
-    "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 1,
-    "num_frames": 4,
-    "prediction": "NoViolence",
-    "timings_ms": {
-      "sampling": 1390,
-      "upload": 0,
-      "inference": 1424,
-      "end_to_end": 2239
-    }
-  },
-  {
-    "clip_id": "89c208ce-96af-423a-ae67-e46b39e290e8",
-    "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 2,
-    "num_frames": 9,
-    "prediction": "NoViolence",
-    "timings_ms": {
-      "sampling": 1414,
-      "upload": 0,
-      "inference": 1762,
-      "end_to_end": 2704
-    }
-  },
-  {
-    "clip_id": "89c208ce-96af-423a-ae67-e46b39e290e8",
-    "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 5,
-    "num_frames": 22,
-    "prediction": "NoViolence",
-    "timings_ms": {
-      "sampling": 1925,
-      "upload": 0,
-      "inference": 7882,
-      "end_to_end": 9034
-    }
-  },
-  {
-    "clip_id": "68e0ba50-fed6-492e-a347-383f87cc37e9",
-    "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 10,
-    "prediction": "NoViolence",
-    "num_frames": 43,
-    "timings_ms": {
-      "capture": 6049,
-      "upload": -658,
-      "inference": 16664,
-      "end_to_end": 22118
-    }
-  },
-  {
-    "clip_id": "68e0ba50-fed6-492e-a347-383f87cc37e9",
-    "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 1,
-    "num_frames": 4,
-    "prediction": "NoViolence",
-    "timings_ms": {
-      "sampling": 1324,
-      "upload": 715,
-      "inference": 1462,
-      "end_to_end": 2072
-    }
-  },
-  {
-    "clip_id": "68e0ba50-fed6-492e-a347-383f87cc37e9",
-    "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 2,
-    "num_frames": 9,
-    "prediction": "NoViolence",
-    "timings_ms": {
-      "sampling": 1387,
-      "upload": 688,
-      "inference": 1764,
-      "end_to_end": 2466
-    }
-  },
-  {
-    "clip_id": "68e0ba50-fed6-492e-a347-383f87cc37e9",
-    "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 5,
-    "num_frames": 22,
-    "prediction": "NoViolence",
-    "timings_ms": {
-      "sampling": 1906,
-      "upload": 565,
-      "inference": 7994,
-      "end_to_end": 9339
-    }
-  },
-  {
-    "clip_id": "8001c67f-96c4-401c-804c-59698e118b22",
-    "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 1,
-    "num_frames": 4,
-    "prediction": "NoViolence",
-    "timings_ms": {
-      "sampling": 1425,
-      "upload": 389,
-      "inference": 1449,
-      "end_to_end": 2487
-    }
-  },
-  {
-    "clip_id": "8001c67f-96c4-401c-804c-59698e118b22",
-    "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 2,
-    "num_frames": 9,
-    "prediction": "NoViolence",
-    "timings_ms": {
-      "sampling": 1547,
-      "upload": 533,
-      "inference": 1578,
-      "end_to_end": 2594
-    }
-  },
-  {
-    "clip_id": "8001c67f-96c4-401c-804c-59698e118b22",
-    "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 5,
-    "num_frames": 22,
-    "prediction": "NoViolence",
-    "timings_ms": {
-      "sampling": 2187,
-      "upload": 541,
-      "inference": 4122,
-      "end_to_end": 5773
-    }
-  },
-  {
-    "clip_id": "0a151015-1678-4f36-9a32-03eaeaa588ea",
-    "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 10,
-    "prediction": "NoViolence",
-    "num_frames": 43,
-    "timings_ms": {
-      "capture": 6064,
-      "upload": 582,
-      "inference": 10525,
-      "end_to_end": 16060
-    }
-  },
-  {
-    "clip_id": "0a151015-1678-4f36-9a32-03eaeaa588ea",
-    "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 1,
-    "num_frames": 4,
-    "prediction": "NoViolence",
-    "timings_ms": {
-      "sampling": 1180,
-      "upload": 610,
-      "inference": 770,
-      "end_to_end": 1342
-    }
-  },
-  {
-    "clip_id": "0a151015-1678-4f36-9a32-03eaeaa588ea",
-    "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 2,
-    "num_frames": 9,
-    "prediction": "NoViolence",
-    "timings_ms": {
-      "sampling": 1587,
-      "upload": 577,
-      "inference": 3330,
-      "end_to_end": 4342
-    }
-  },
-  {
-    "clip_id": "0a151015-1678-4f36-9a32-03eaeaa588ea",
-    "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 5,
-    "num_frames": 22,
-    "prediction": "NoViolence",
-    "timings_ms": {
-      "sampling": 1914,
-      "upload": 518,
-      "inference": 4045,
-      "end_to_end": 5445
-    }
-  },
-  {
-    "clip_id": "4a1e4ab4-9d2a-45b1-86a9-d130bcd7cfde",
-    "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 10,
-    "prediction": "NoViolence",
-    "num_frames": 43,
-    "timings_ms": {
-      "capture": 6735,
-      "upload": 561,
-      "inference": 12457,
-      "end_to_end": 18670
-    }
-  },
-  {
-    "clip_id": "4a1e4ab4-9d2a-45b1-86a9-d130bcd7cfde",
-    "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 1,
-    "num_frames": 4,
-    "prediction": "NoViolence",
-    "timings_ms": {
-      "sampling": 1147,
-      "upload": 403,
-      "inference": 878,
-      "end_to_end": 1624
-    }
-  },
-  {
-    "clip_id": "4a1e4ab4-9d2a-45b1-86a9-d130bcd7cfde",
-    "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 2,
-    "num_frames": 9,
-    "prediction": "NoViolence",
-    "timings_ms": {
-      "sampling": 1337,
-      "upload": 586,
-      "inference": 1843,
-      "end_to_end": 2597
-    }
-  },
-  {
-    "clip_id": "4a1e4ab4-9d2a-45b1-86a9-d130bcd7cfde",
-    "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 5,
-    "num_frames": 22,
-    "prediction": "NoViolence",
-    "timings_ms": {
-      "sampling": 1844,
-      "upload": 407,
-      "inference": 4520,
-      "end_to_end": 5961
-    }
-  },
-  {
-    "clip_id": "77aafe64-467d-4c30-bc02-2a944e609879",
-    "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 10,
-    "prediction": "NoViolence",
-    "num_frames": 43,
-    "timings_ms": {
-      "capture": 6730,
-      "upload": 13,
-      "inference": 26750,
-      "end_to_end": 33506
-    }
-  },
-  {
-    "clip_id": "77aafe64-467d-4c30-bc02-2a944e609879",
-    "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 1,
-    "num_frames": 4,
-    "prediction": "NoViolence",
-    "timings_ms": {
-      "sampling": 1136,
-      "upload": -115,
-      "inference": 1533,
-      "end_to_end": 2786
-    }
-  },
-  {
-    "clip_id": "77aafe64-467d-4c30-bc02-2a944e609879",
-    "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 2,
-    "num_frames": 9,
-    "prediction": "NoViolence",
-    "timings_ms": {
-      "sampling": 1498,
-      "upload": -246,
-      "inference": 1732,
-      "end_to_end": 3479
-    }
-  },
-  {
-    "clip_id": "77aafe64-467d-4c30-bc02-2a944e609879",
-    "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 5,
-    "num_frames": 22,
-    "prediction": "NoViolence",
-    "timings_ms": {
-      "sampling": 1783,
-      "upload": 403,
-      "inference": 8725,
-      "end_to_end": 10111
-    }
-  },
-  {
-    "clip_id": "40a9c249-973b-4ac0-9b0d-27df044d3faf",
-    "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 10,
-    "prediction": "NoViolence",
-    "num_frames": 43,
-    "timings_ms": {
-      "capture": 6747,
-      "upload": -1144,
-      "inference": 15603,
-      "end_to_end": 23526
-    },
-    "ground_truth": "Violence",
-    "is_correct": false
-  },
-  {
-    "clip_id": "40a9c249-973b-4ac0-9b0d-27df044d3faf",
-    "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 1,
-    "num_frames": 4,
-    "prediction": "NoViolence",
-    "timings_ms": {
-      "sampling": 1188,
-      "upload": 415,
-      "inference": 1460,
-      "end_to_end": 2236
-    },
-    "ground_truth": "Violence",
-    "is_correct": false
-  },
-  {
-    "clip_id": "40a9c249-973b-4ac0-9b0d-27df044d3faf",
-    "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 2,
-    "num_frames": 9,
-    "prediction": "NoViolence",
-    "timings_ms": {
-      "sampling": 1316,
-      "upload": 371,
-      "inference": 1687,
-      "end_to_end": 2635
-    },
-    "ground_truth": "Violence",
-    "is_correct": false
-  },
-  {
-    "clip_id": "40a9c249-973b-4ac0-9b0d-27df044d3faf",
-    "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
-    "sampling_fps": 5,
-    "num_frames": 22,
-    "prediction": "NoViolence",
-    "timings_ms": {
-      "sampling": 1840,
-      "upload": 329,
-      "inference": 5106,
-      "end_to_end": 6620
-    },
-    "ground_truth": "Violence",
-    "is_correct": false
-  },
-  {
-    "clip_id": "f932f887-3565-421a-b22c-582c9a6e0717",
+    "clip_id": "c88c363b-e144-421d-b3e3-997e462eeb66",
     "mode": "video",
     "device_id": "raspberry_pi_cam_v3",
     "sampling_fps": 10,
     "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
     "num_frames": 43,
     "timings_ms": {
-      "capture": 9060,
-      "upload": 201,
-      "inference": 3157,
-      "end_to_end": 12039
+      "capture": 6724,
+      "inference": 4068,
+      "upload_client": 4247
     },
     "ground_truth": "NoViolence",
     "is_correct": false
   },
   {
-    "clip_id": "f932f887-3565-421a-b22c-582c9a6e0717",
+    "clip_id": "c88c363b-e144-421d-b3e3-997e462eeb66",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1215,
+      "inference": 298,
+      "upload_client": 1249
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "c88c363b-e144-421d-b3e3-997e462eeb66",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1848,
+      "inference": 684,
+      "upload_client": 741
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "c88c363b-e144-421d-b3e3-997e462eeb66",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2430,
+      "inference": 1639,
+      "upload_client": 1844
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "564e0862-82da-426d-afc9-c57002f0f317",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6730,
+      "inference": 3885,
+      "upload_client": 4357
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "564e0862-82da-426d-afc9-c57002f0f317",
     "mode": "frames",
     "device_id": "raspberry_pi_cam_v3",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
     "timings_ms": {
-      "sampling": 1155,
-      "upload": 419,
-      "inference": 193,
-      "end_to_end": 931
+      "sampling": 1054,
+      "inference": 314,
+      "upload_client": 388
     },
     "ground_truth": "NoViolence",
     "is_correct": true
   },
   {
-    "clip_id": "f932f887-3565-421a-b22c-582c9a6e0717",
+    "clip_id": "564e0862-82da-426d-afc9-c57002f0f317",
     "mode": "frames",
     "device_id": "raspberry_pi_cam_v3",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
     "timings_ms": {
-      "sampling": 1256,
-      "upload": 411,
-      "inference": 422,
-      "end_to_end": 1270
+      "sampling": 2097,
+      "inference": 659,
+      "upload_client": 934
     },
     "ground_truth": "NoViolence",
     "is_correct": true
   },
   {
-    "clip_id": "f932f887-3565-421a-b22c-582c9a6e0717",
+    "clip_id": "564e0862-82da-426d-afc9-c57002f0f317",
     "mode": "frames",
     "device_id": "raspberry_pi_cam_v3",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
     "timings_ms": {
-      "sampling": 1869,
-      "upload": 404,
-      "inference": 998,
-      "end_to_end": 2467
+      "sampling": 1854,
+      "inference": 1710,
+      "upload_client": 1813
     },
     "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "948a775c-a6b6-458f-b17f-fe786e046db1",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6938,
+      "inference": 3855,
+      "upload_client": 4158
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "948a775c-a6b6-458f-b17f-fe786e046db1",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1165,
+      "inference": 315,
+      "upload_client": 388
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "948a775c-a6b6-458f-b17f-fe786e046db1",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2060,
+      "inference": 645,
+      "upload_client": 702
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "948a775c-a6b6-458f-b17f-fe786e046db1",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1867,
+      "inference": 1604,
+      "upload_client": 1795
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "6da57a68-0a29-49cd-8fa4-0b40b73a28cd",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6734,
+      "inference": 3927,
+      "upload_client": 4091
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "6da57a68-0a29-49cd-8fa4-0b40b73a28cd",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1194,
+      "inference": 308,
+      "upload_client": 400
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "6da57a68-0a29-49cd-8fa4-0b40b73a28cd",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2016,
+      "inference": 653,
+      "upload_client": 723
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "6da57a68-0a29-49cd-8fa4-0b40b73a28cd",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1831,
+      "inference": 1628,
+      "upload_client": 1727
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "6e188028-6aa1-4e48-8d47-688b326d890a",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6728,
+      "inference": 3906,
+      "upload_client": 4031
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "6e188028-6aa1-4e48-8d47-688b326d890a",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1162,
+      "inference": 301,
+      "upload_client": 434
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "6e188028-6aa1-4e48-8d47-688b326d890a",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2088,
+      "inference": 686,
+      "upload_client": 746
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "6e188028-6aa1-4e48-8d47-688b326d890a",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2302,
+      "inference": 1621,
+      "upload_client": 1690
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "22b92945-4abf-4ea6-90ce-c44b92faad83",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6732,
+      "inference": 4874,
+      "upload_client": 5983
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "22b92945-4abf-4ea6-90ce-c44b92faad83",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1131,
+      "inference": 315,
+      "upload_client": 947
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "22b92945-4abf-4ea6-90ce-c44b92faad83",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1912,
+      "inference": 726,
+      "upload_client": 882
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "22b92945-4abf-4ea6-90ce-c44b92faad83",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2400,
+      "inference": 1728,
+      "upload_client": 1929
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "0f1641b0-fbf6-4f86-8503-021c16c36d63",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6736,
+      "inference": 3854,
+      "upload_client": 4324
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "0f1641b0-fbf6-4f86-8503-021c16c36d63",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1131,
+      "inference": 349,
+      "upload_client": 1083
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "0f1641b0-fbf6-4f86-8503-021c16c36d63",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1712,
+      "inference": 612,
+      "upload_client": 762
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "0f1641b0-fbf6-4f86-8503-021c16c36d63",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2442,
+      "inference": 1481,
+      "upload_client": 1580
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "282f20d4-f901-4029-bf8d-4cdab120cb19",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6707,
+      "inference": 4093,
+      "upload_client": 4316
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "282f20d4-f901-4029-bf8d-4cdab120cb19",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1079,
+      "inference": 314,
+      "upload_client": 450
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "282f20d4-f901-4029-bf8d-4cdab120cb19",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2109,
+      "inference": 670,
+      "upload_client": 713
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "282f20d4-f901-4029-bf8d-4cdab120cb19",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1996,
+      "inference": 1448,
+      "upload_client": 1504
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "0743ab6c-7fa9-40df-a21f-5c202e99ca75",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6713,
+      "inference": 3981,
+      "upload_client": 4105
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "0743ab6c-7fa9-40df-a21f-5c202e99ca75",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1080,
+      "inference": 293,
+      "upload_client": 387
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "0743ab6c-7fa9-40df-a21f-5c202e99ca75",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2126,
+      "inference": 663,
+      "upload_client": 716
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "0743ab6c-7fa9-40df-a21f-5c202e99ca75",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2353,
+      "inference": 1632,
+      "upload_client": 1996
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "d68ff82c-0836-41ad-a35c-ae857fb8c0db",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 7532,
+      "inference": 3965,
+      "upload_client": 4081
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "d68ff82c-0836-41ad-a35c-ae857fb8c0db",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1133,
+      "inference": 288,
+      "upload_client": 1112
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "d68ff82c-0836-41ad-a35c-ae857fb8c0db",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1970,
+      "inference": 704,
+      "upload_client": 798
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "d68ff82c-0836-41ad-a35c-ae857fb8c0db",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2077,
+      "inference": 1675,
+      "upload_client": 1789
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "b5096db6-88b2-4eed-a4f0-d5ab349fd73c",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6719,
+      "inference": 3832,
+      "upload_client": 4012
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "b5096db6-88b2-4eed-a4f0-d5ab349fd73c",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1059,
+      "inference": 325,
+      "upload_client": 470
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "b5096db6-88b2-4eed-a4f0-d5ab349fd73c",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1896,
+      "inference": 622,
+      "upload_client": 672
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "b5096db6-88b2-4eed-a4f0-d5ab349fd73c",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2401,
+      "inference": 1476,
+      "upload_client": 1524
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "bae56340-951f-4c9f-9d13-9e9cf44c3b23",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6733,
+      "inference": 4378,
+      "upload_client": 4576
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "bae56340-951f-4c9f-9d13-9e9cf44c3b23",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1151,
+      "inference": 283,
+      "upload_client": 948
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "bae56340-951f-4c9f-9d13-9e9cf44c3b23",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1885,
+      "inference": 581,
+      "upload_client": 807
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "bae56340-951f-4c9f-9d13-9e9cf44c3b23",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2452,
+      "inference": 1523,
+      "upload_client": 1580
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "a19b87f1-b72e-4d87-baf3-ed2143cf6c1d",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6717,
+      "inference": 3918,
+      "upload_client": 4064
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "a19b87f1-b72e-4d87-baf3-ed2143cf6c1d",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1292,
+      "inference": 257,
+      "upload_client": 353
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "a19b87f1-b72e-4d87-baf3-ed2143cf6c1d",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2036,
+      "inference": 662,
+      "upload_client": 775
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "a19b87f1-b72e-4d87-baf3-ed2143cf6c1d",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1771,
+      "inference": 1519,
+      "upload_client": 1807
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "a0fa697c-84f7-40d0-a09a-79527307e83f",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6704,
+      "inference": 3813,
+      "upload_client": 4138
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "a0fa697c-84f7-40d0-a09a-79527307e83f",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1233,
+      "inference": 282,
+      "upload_client": 337
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "a0fa697c-84f7-40d0-a09a-79527307e83f",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1850,
+      "inference": 629,
+      "upload_client": 879
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "a0fa697c-84f7-40d0-a09a-79527307e83f",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2357,
+      "inference": 1491,
+      "upload_client": 1608
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "585471b4-2d77-4702-a9ed-8e33141a489d",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6750,
+      "inference": 4050,
+      "upload_client": 4277
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "585471b4-2d77-4702-a9ed-8e33141a489d",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1182,
+      "inference": 330,
+      "upload_client": 864
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "585471b4-2d77-4702-a9ed-8e33141a489d",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1984,
+      "inference": 675,
+      "upload_client": 830
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "585471b4-2d77-4702-a9ed-8e33141a489d",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2470,
+      "inference": 1690,
+      "upload_client": 1757
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "22e28a4c-36cd-4a43-944e-c5000aae773a",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6732,
+      "inference": 3983,
+      "upload_client": 4246
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "22e28a4c-36cd-4a43-944e-c5000aae773a",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1007,
+      "inference": 302,
+      "upload_client": 1373
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "22e28a4c-36cd-4a43-944e-c5000aae773a",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1682,
+      "inference": 691,
+      "upload_client": 1170
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "22e28a4c-36cd-4a43-944e-c5000aae773a",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2360,
+      "inference": 1629,
+      "upload_client": 1877
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "8f7753fe-c1db-405f-a977-b85f2739f06d",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6719,
+      "inference": 3930,
+      "upload_client": 4102
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "8f7753fe-c1db-405f-a977-b85f2739f06d",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1098,
+      "inference": 314,
+      "upload_client": 370
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "8f7753fe-c1db-405f-a977-b85f2739f06d",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1953,
+      "inference": 660,
+      "upload_client": 728
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "8f7753fe-c1db-405f-a977-b85f2739f06d",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1847,
+      "inference": 1643,
+      "upload_client": 1723
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "1c896c04-b8a9-4c92-936e-b2f3c4f83aaf",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6720,
+      "inference": 4049,
+      "upload_client": 4190
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "1c896c04-b8a9-4c92-936e-b2f3c4f83aaf",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1156,
+      "inference": 270,
+      "upload_client": 852
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "1c896c04-b8a9-4c92-936e-b2f3c4f83aaf",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1725,
+      "inference": 624,
+      "upload_client": 848
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "1c896c04-b8a9-4c92-936e-b2f3c4f83aaf",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2443,
+      "inference": 1533,
+      "upload_client": 1611
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "7c79eae2-318e-4d36-a702-2798f5199661",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6731,
+      "inference": 3915,
+      "upload_client": 4188
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "7c79eae2-318e-4d36-a702-2798f5199661",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1164,
+      "inference": 333,
+      "upload_client": 611
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "7c79eae2-318e-4d36-a702-2798f5199661",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1660,
+      "inference": 703,
+      "upload_client": 832
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "7c79eae2-318e-4d36-a702-2798f5199661",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2476,
+      "inference": 1556,
+      "upload_client": 1620
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "dca1e423-bd91-4592-a055-ecbd39596dc0",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6738,
+      "inference": 3859,
+      "upload_client": 4199
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "dca1e423-bd91-4592-a055-ecbd39596dc0",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1124,
+      "inference": 307,
+      "upload_client": 786
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "dca1e423-bd91-4592-a055-ecbd39596dc0",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1882,
+      "inference": 595,
+      "upload_client": 1469
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "dca1e423-bd91-4592-a055-ecbd39596dc0",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2404,
+      "inference": 1494,
+      "upload_client": 1746
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "40f8ffe6-88df-40e0-96b4-b859539dee11",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6725,
+      "inference": 3998,
+      "upload_client": 4164
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "40f8ffe6-88df-40e0-96b4-b859539dee11",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1146,
+      "inference": 329,
+      "upload_client": 498
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "40f8ffe6-88df-40e0-96b4-b859539dee11",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2098,
+      "inference": 593,
+      "upload_client": 829
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "40f8ffe6-88df-40e0-96b4-b859539dee11",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2448,
+      "inference": 1549,
+      "upload_client": 1639
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "12c0e754-7d12-4997-a324-a12efc9274c0",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6720,
+      "inference": 3983,
+      "upload_client": 4127
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "12c0e754-7d12-4997-a324-a12efc9274c0",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1211,
+      "inference": 313,
+      "upload_client": 441
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "12c0e754-7d12-4997-a324-a12efc9274c0",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1865,
+      "inference": 755,
+      "upload_client": 824
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "12c0e754-7d12-4997-a324-a12efc9274c0",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2446,
+      "inference": 1681,
+      "upload_client": 1994
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "7cf87f5c-b6de-4a35-986e-07529e5a7ed2",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6720,
+      "inference": 3964,
+      "upload_client": 4121
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "7cf87f5c-b6de-4a35-986e-07529e5a7ed2",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1108,
+      "inference": 296,
+      "upload_client": 1149
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "7cf87f5c-b6de-4a35-986e-07529e5a7ed2",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1964,
+      "inference": 598,
+      "upload_client": 655
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "7cf87f5c-b6de-4a35-986e-07529e5a7ed2",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2401,
+      "inference": 1634,
+      "upload_client": 1696
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "b184fdc8-4aaf-4733-8f6f-c1dfd9f1f599",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6713,
+      "inference": 3684,
+      "upload_client": 4265
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "b184fdc8-4aaf-4733-8f6f-c1dfd9f1f599",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1102,
+      "inference": 280,
+      "upload_client": 393
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "b184fdc8-4aaf-4733-8f6f-c1dfd9f1f599",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2052,
+      "inference": 676,
+      "upload_client": 991
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "b184fdc8-4aaf-4733-8f6f-c1dfd9f1f599",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1890,
+      "inference": 1665,
+      "upload_client": 1885
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "930a48b6-cdaf-45f2-988e-a153eb7785e3",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6716,
+      "inference": 3997,
+      "upload_client": 4914
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "930a48b6-cdaf-45f2-988e-a153eb7785e3",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1029,
+      "inference": 322,
+      "upload_client": 1086
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "930a48b6-cdaf-45f2-988e-a153eb7785e3",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1961,
+      "inference": 675,
+      "upload_client": 786
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "930a48b6-cdaf-45f2-988e-a153eb7785e3",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2470,
+      "inference": 1709,
+      "upload_client": 2065
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "08b468d3-ab4d-41b8-83eb-99670f8f043a",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6734,
+      "inference": 3894,
+      "upload_client": 4165
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "08b468d3-ab4d-41b8-83eb-99670f8f043a",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1143,
+      "inference": 282,
+      "upload_client": 393
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "08b468d3-ab4d-41b8-83eb-99670f8f043a",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2078,
+      "inference": 682,
+      "upload_client": 1220
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "08b468d3-ab4d-41b8-83eb-99670f8f043a",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1810,
+      "inference": 1476,
+      "upload_client": 1547
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "c98f5d0e-97c8-45b6-ac84-ea345cde6fad",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6730,
+      "inference": 3981,
+      "upload_client": 4650
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "c98f5d0e-97c8-45b6-ac84-ea345cde6fad",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1183,
+      "inference": 343,
+      "upload_client": 667
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "c98f5d0e-97c8-45b6-ac84-ea345cde6fad",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1982,
+      "inference": 742,
+      "upload_client": 792
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "c98f5d0e-97c8-45b6-ac84-ea345cde6fad",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1880,
+      "inference": 1591,
+      "upload_client": 1881
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "0ba48be5-b383-4f8f-bc25-918cde740b76",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6758,
+      "inference": 4059,
+      "upload_client": 4249
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "0ba48be5-b383-4f8f-bc25-918cde740b76",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1130,
+      "inference": 298,
+      "upload_client": 373
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "0ba48be5-b383-4f8f-bc25-918cde740b76",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2197,
+      "inference": 652,
+      "upload_client": 772
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "0ba48be5-b383-4f8f-bc25-918cde740b76",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1876,
+      "inference": 1519,
+      "upload_client": 1589
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "ec1aaa86-623f-438a-a1eb-a11806fd97c1",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6731,
+      "inference": 3983,
+      "upload_client": 4143
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "ec1aaa86-623f-438a-a1eb-a11806fd97c1",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1125,
+      "inference": 310,
+      "upload_client": 503
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "ec1aaa86-623f-438a-a1eb-a11806fd97c1",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2126,
+      "inference": 585,
+      "upload_client": 1269
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "ec1aaa86-623f-438a-a1eb-a11806fd97c1",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2463,
+      "inference": 1646,
+      "upload_client": 2664
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "b700261c-f7e5-4d8b-86a2-76ffad575fbf",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6730,
+      "inference": 3965,
+      "upload_client": 4133
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "b700261c-f7e5-4d8b-86a2-76ffad575fbf",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1168,
+      "inference": 276,
+      "upload_client": 589
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "b700261c-f7e5-4d8b-86a2-76ffad575fbf",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1985,
+      "inference": 660,
+      "upload_client": 779
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "b700261c-f7e5-4d8b-86a2-76ffad575fbf",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2363,
+      "inference": 1590,
+      "upload_client": 1747
+    },
+    "ground_truth": "NoViolence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "0f46f515-26d2-4c81-a48f-7743007f9cc1",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6730,
+      "inference": 4051,
+      "upload_client": 4458
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "0f46f515-26d2-4c81-a48f-7743007f9cc1",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1152,
+      "inference": 274,
+      "upload_client": 741
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "0f46f515-26d2-4c81-a48f-7743007f9cc1",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1835,
+      "inference": 660,
+      "upload_client": 724
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "0f46f515-26d2-4c81-a48f-7743007f9cc1",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2380,
+      "inference": 1568,
+      "upload_client": 1629
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "2748a57d-8f84-4931-a9e6-b604dfe258e6",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6737,
+      "inference": 4066,
+      "upload_client": 4947
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "2748a57d-8f84-4931-a9e6-b604dfe258e6",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1104,
+      "inference": 335,
+      "upload_client": 387
+    },
+    "ground_truth": "Violence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "2748a57d-8f84-4931-a9e6-b604dfe258e6",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2070,
+      "inference": 581,
+      "upload_client": 1271
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "2748a57d-8f84-4931-a9e6-b604dfe258e6",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1805,
+      "inference": 1468,
+      "upload_client": 1528
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "7900d0cd-8b88-4a20-9eda-91b21d3504be",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6717,
+      "inference": 4267,
+      "upload_client": 4391
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "7900d0cd-8b88-4a20-9eda-91b21d3504be",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1171,
+      "inference": 320,
+      "upload_client": 391
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "7900d0cd-8b88-4a20-9eda-91b21d3504be",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1996,
+      "inference": 607,
+      "upload_client": 750
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "7900d0cd-8b88-4a20-9eda-91b21d3504be",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2453,
+      "inference": 1519,
+      "upload_client": 1588
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "41e150c3-8423-4955-b0c4-fc2ab8662842",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6748,
+      "inference": 4186,
+      "upload_client": 4344
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "41e150c3-8423-4955-b0c4-fc2ab8662842",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1090,
+      "inference": 313,
+      "upload_client": 523
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "41e150c3-8423-4955-b0c4-fc2ab8662842",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1631,
+      "inference": 630,
+      "upload_client": 688
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "41e150c3-8423-4955-b0c4-fc2ab8662842",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2475,
+      "inference": 1595,
+      "upload_client": 1663
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "c67df8de-855e-4c0d-a52c-ce12e0d58002",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6739,
+      "inference": 3977,
+      "upload_client": 4164
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "c67df8de-855e-4c0d-a52c-ce12e0d58002",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1133,
+      "inference": 325,
+      "upload_client": 621
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "c67df8de-855e-4c0d-a52c-ce12e0d58002",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2027,
+      "inference": 733,
+      "upload_client": 800
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "c67df8de-855e-4c0d-a52c-ce12e0d58002",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2357,
+      "inference": 1641,
+      "upload_client": 1703
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "e4af9073-7194-4757-92d1-cb80525f4dc1",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6750,
+      "inference": 3968,
+      "upload_client": 4227
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "e4af9073-7194-4757-92d1-cb80525f4dc1",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1194,
+      "inference": 316,
+      "upload_client": 439
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "e4af9073-7194-4757-92d1-cb80525f4dc1",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1952,
+      "inference": 713,
+      "upload_client": 2647
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "e4af9073-7194-4757-92d1-cb80525f4dc1",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1819,
+      "inference": 1666,
+      "upload_client": 1824
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "28b92e83-8f12-4f06-9dd7-919fa44cb604",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6727,
+      "inference": 3987,
+      "upload_client": 4131
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "28b92e83-8f12-4f06-9dd7-919fa44cb604",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1101,
+      "inference": 304,
+      "upload_client": 890
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "28b92e83-8f12-4f06-9dd7-919fa44cb604",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1919,
+      "inference": 668,
+      "upload_client": 1022
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "28b92e83-8f12-4f06-9dd7-919fa44cb604",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1906,
+      "inference": 1662,
+      "upload_client": 1729
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "fa73e0f4-ff99-4957-b708-06067ed78265",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6727,
+      "inference": 4000,
+      "upload_client": 4178
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "fa73e0f4-ff99-4957-b708-06067ed78265",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1150,
+      "inference": 298,
+      "upload_client": 690
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "fa73e0f4-ff99-4957-b708-06067ed78265",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1963,
+      "inference": 574,
+      "upload_client": 693
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "fa73e0f4-ff99-4957-b708-06067ed78265",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1900,
+      "inference": 1422,
+      "upload_client": 1700
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "241bf49a-48a5-4049-9e64-b09fe09c6bca",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6746,
+      "inference": 4016,
+      "upload_client": 4520
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "241bf49a-48a5-4049-9e64-b09fe09c6bca",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1057,
+      "inference": 299,
+      "upload_client": 1245
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "241bf49a-48a5-4049-9e64-b09fe09c6bca",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1883,
+      "inference": 666,
+      "upload_client": 868
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "241bf49a-48a5-4049-9e64-b09fe09c6bca",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2299,
+      "inference": 1617,
+      "upload_client": 1725
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "3b755a02-d14b-4fe5-9ece-20afb9b320c6",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6734,
+      "inference": 3979,
+      "upload_client": 4135
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "3b755a02-d14b-4fe5-9ece-20afb9b320c6",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1160,
+      "inference": 300,
+      "upload_client": 1331
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "3b755a02-d14b-4fe5-9ece-20afb9b320c6",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1665,
+      "inference": 671,
+      "upload_client": 817
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "3b755a02-d14b-4fe5-9ece-20afb9b320c6",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2441,
+      "inference": 1620,
+      "upload_client": 2231
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "d535d424-f019-464a-8104-ba3b5a19af4e",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6711,
+      "inference": 3989,
+      "upload_client": 4774
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "d535d424-f019-464a-8104-ba3b5a19af4e",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1176,
+      "inference": 301,
+      "upload_client": 597
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "d535d424-f019-464a-8104-ba3b5a19af4e",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1964,
+      "inference": 660,
+      "upload_client": 1193
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "d535d424-f019-464a-8104-ba3b5a19af4e",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2420,
+      "inference": 1618,
+      "upload_client": 1710
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "fd5d7b77-6eee-4bbc-9a6c-67e98d8b7b8a",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6747,
+      "inference": 3957,
+      "upload_client": 4217
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "fd5d7b77-6eee-4bbc-9a6c-67e98d8b7b8a",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1173,
+      "inference": 306,
+      "upload_client": 656
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "fd5d7b77-6eee-4bbc-9a6c-67e98d8b7b8a",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2131,
+      "inference": 660,
+      "upload_client": 842
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "fd5d7b77-6eee-4bbc-9a6c-67e98d8b7b8a",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2393,
+      "inference": 1632,
+      "upload_client": 1825
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "90fceac3-9c45-4eff-9177-7dd6aa119c74",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6718,
+      "inference": 3962,
+      "upload_client": 4385
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "90fceac3-9c45-4eff-9177-7dd6aa119c74",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 990,
+      "inference": 324,
+      "upload_client": 471
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "90fceac3-9c45-4eff-9177-7dd6aa119c74",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2131,
+      "inference": 663,
+      "upload_client": 761
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "90fceac3-9c45-4eff-9177-7dd6aa119c74",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1862,
+      "inference": 1627,
+      "upload_client": 1714
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "3d08945b-9342-4638-b678-6e6429073140",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6718,
+      "inference": 3952,
+      "upload_client": 4152
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "3d08945b-9342-4638-b678-6e6429073140",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1218,
+      "inference": 301,
+      "upload_client": 645
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "3d08945b-9342-4638-b678-6e6429073140",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1587,
+      "inference": 723,
+      "upload_client": 810
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "3d08945b-9342-4638-b678-6e6429073140",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2430,
+      "inference": 1742,
+      "upload_client": 1836
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "a1cb915d-e2ac-4498-857f-cb31cf8efd9e",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6745,
+      "inference": 4210,
+      "upload_client": 4463
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "a1cb915d-e2ac-4498-857f-cb31cf8efd9e",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1212,
+      "inference": 321,
+      "upload_client": 444
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "a1cb915d-e2ac-4498-857f-cb31cf8efd9e",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2043,
+      "inference": 724,
+      "upload_client": 1316
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "a1cb915d-e2ac-4498-857f-cb31cf8efd9e",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2419,
+      "inference": 1745,
+      "upload_client": 1993
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "be5d0425-5792-4171-96d6-282ac625dab5",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6735,
+      "inference": 4164,
+      "upload_client": 4904
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "be5d0425-5792-4171-96d6-282ac625dab5",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1026,
+      "inference": 308,
+      "upload_client": 976
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "be5d0425-5792-4171-96d6-282ac625dab5",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2072,
+      "inference": 719,
+      "upload_client": 1450
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "be5d0425-5792-4171-96d6-282ac625dab5",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1942,
+      "inference": 1738,
+      "upload_client": 1944
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "7357b591-d043-4f89-8818-aaca639ff6e8",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6751,
+      "inference": 4115,
+      "upload_client": 5237
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "7357b591-d043-4f89-8818-aaca639ff6e8",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1148,
+      "inference": 344,
+      "upload_client": 680
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "7357b591-d043-4f89-8818-aaca639ff6e8",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1956,
+      "inference": 675,
+      "upload_client": 761
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "7357b591-d043-4f89-8818-aaca639ff6e8",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2393,
+      "inference": 1774,
+      "upload_client": 2168
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "569cadac-1803-446c-ae63-5414efe59039",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6730,
+      "inference": 4072,
+      "upload_client": 4652
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "569cadac-1803-446c-ae63-5414efe59039",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1148,
+      "inference": 317,
+      "upload_client": 1032
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "569cadac-1803-446c-ae63-5414efe59039",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1886,
+      "inference": 691,
+      "upload_client": 1019
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "569cadac-1803-446c-ae63-5414efe59039",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2469,
+      "inference": 1667,
+      "upload_client": 1990
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "811f2810-4da9-4755-9bb1-40572a8b0e3c",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6738,
+      "inference": 4219,
+      "upload_client": 4408
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "811f2810-4da9-4755-9bb1-40572a8b0e3c",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1150,
+      "inference": 328,
+      "upload_client": 424
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "811f2810-4da9-4755-9bb1-40572a8b0e3c",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1838,
+      "inference": 710,
+      "upload_client": 1134
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "811f2810-4da9-4755-9bb1-40572a8b0e3c",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2407,
+      "inference": 1667,
+      "upload_client": 1799
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "82a67f08-0a52-4d8e-977b-89a582c6159a",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6728,
+      "inference": 4135,
+      "upload_client": 4464
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "82a67f08-0a52-4d8e-977b-89a582c6159a",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1167,
+      "inference": 336,
+      "upload_client": 709
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "82a67f08-0a52-4d8e-977b-89a582c6159a",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1983,
+      "inference": 683,
+      "upload_client": 1691
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "82a67f08-0a52-4d8e-977b-89a582c6159a",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1932,
+      "inference": 1645,
+      "upload_client": 1934
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "053bec3e-13c1-47f9-ab94-93c02101439a",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6732,
+      "inference": 4147,
+      "upload_client": 4792
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "053bec3e-13c1-47f9-ab94-93c02101439a",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1176,
+      "inference": 312,
+      "upload_client": 780
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "053bec3e-13c1-47f9-ab94-93c02101439a",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1616,
+      "inference": 685,
+      "upload_client": 1008
+    },
+    "ground_truth": "Violence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "053bec3e-13c1-47f9-ab94-93c02101439a",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2360,
+      "inference": 1671,
+      "upload_client": 1769
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "afd42216-e6aa-4652-9e28-39795869b16f",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6725,
+      "inference": 4019,
+      "upload_client": 4533
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "afd42216-e6aa-4652-9e28-39795869b16f",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1176,
+      "inference": 326,
+      "upload_client": 508
+    },
+    "ground_truth": "Violence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "afd42216-e6aa-4652-9e28-39795869b16f",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1965,
+      "inference": 700,
+      "upload_client": 857
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "afd42216-e6aa-4652-9e28-39795869b16f",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2426,
+      "inference": 1640,
+      "upload_client": 1827
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "4aa46fee-43a8-454a-99ba-276f55d112dc",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6732,
+      "inference": 4056,
+      "upload_client": 4576
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "4aa46fee-43a8-454a-99ba-276f55d112dc",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1112,
+      "inference": 299,
+      "upload_client": 946
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "4aa46fee-43a8-454a-99ba-276f55d112dc",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1943,
+      "inference": 693,
+      "upload_client": 814
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "4aa46fee-43a8-454a-99ba-276f55d112dc",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2417,
+      "inference": 1690,
+      "upload_client": 1848
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "301fe337-f6de-413d-bf26-f4100b9dd59c",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6727,
+      "inference": 4006,
+      "upload_client": 4220
+    },
+    "ground_truth": "Violence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "301fe337-f6de-413d-bf26-f4100b9dd59c",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1067,
+      "inference": 312,
+      "upload_client": 484
+    },
+    "ground_truth": "Violence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "301fe337-f6de-413d-bf26-f4100b9dd59c",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2029,
+      "inference": 658,
+      "upload_client": 1213
+    },
+    "ground_truth": "Violence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "301fe337-f6de-413d-bf26-f4100b9dd59c",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2349,
+      "inference": 1623,
+      "upload_client": 1737
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "cc7885ef-ff5b-4cc1-b5cb-3a47f81737ac",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6725,
+      "inference": 3993,
+      "upload_client": 4541
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "cc7885ef-ff5b-4cc1-b5cb-3a47f81737ac",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1101,
+      "inference": 297,
+      "upload_client": 391
+    },
+    "ground_truth": "Violence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "cc7885ef-ff5b-4cc1-b5cb-3a47f81737ac",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2082,
+      "inference": 678,
+      "upload_client": 1182
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "cc7885ef-ff5b-4cc1-b5cb-3a47f81737ac",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "Violence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1704,
+      "inference": 1622,
+      "upload_client": 1968
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "0ecc255b-e559-474a-a8e7-ee7e61bbd997",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6733,
+      "inference": 4008,
+      "upload_client": 4171
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "0ecc255b-e559-474a-a8e7-ee7e61bbd997",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1211,
+      "inference": 304,
+      "upload_client": 434
+    },
+    "ground_truth": "Violence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "0ecc255b-e559-474a-a8e7-ee7e61bbd997",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2114,
+      "inference": 685,
+      "upload_client": 818
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "0ecc255b-e559-474a-a8e7-ee7e61bbd997",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2443,
+      "inference": 1632,
+      "upload_client": 2016
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "4a9ca4d0-576f-4a22-88cc-3f4b2718f9a0",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6730,
+      "inference": 3955,
+      "upload_client": 4145
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "4a9ca4d0-576f-4a22-88cc-3f4b2718f9a0",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1186,
+      "inference": 305,
+      "upload_client": 995
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "4a9ca4d0-576f-4a22-88cc-3f4b2718f9a0",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "NoViolence",
+      "0.2": "NoViolence",
+      "0.3": "NoViolence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1623,
+      "inference": 692,
+      "upload_client": 784
+    },
+    "ground_truth": "Violence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "4a9ca4d0-576f-4a22-88cc-3f4b2718f9a0",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2488,
+      "inference": 1632,
+      "upload_client": 1819
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "2e75db8f-b4f5-46c8-81e1-5ea9864f645c",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6719,
+      "inference": 4013,
+      "upload_client": 4206
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "2e75db8f-b4f5-46c8-81e1-5ea9864f645c",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1167,
+      "inference": 302,
+      "upload_client": 654
+    },
+    "ground_truth": "Violence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "2e75db8f-b4f5-46c8-81e1-5ea9864f645c",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2002,
+      "inference": 660,
+      "upload_client": 744
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "2e75db8f-b4f5-46c8-81e1-5ea9864f645c",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2412,
+      "inference": 1632,
+      "upload_client": 1769
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "fd32f048-ce0e-47f4-9f6d-f1f0efa6854b",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6739,
+      "inference": 3976,
+      "upload_client": 4198
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "fd32f048-ce0e-47f4-9f6d-f1f0efa6854b",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "NoViolence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "NoViolence",
+      "0.5": "NoViolence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1184,
+      "inference": 300,
+      "upload_client": 757
+    },
+    "ground_truth": "Violence",
+    "is_correct": false
+  },
+  {
+    "clip_id": "fd32f048-ce0e-47f4-9f6d-f1f0efa6854b",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "NoViolence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1987,
+      "inference": 660,
+      "upload_client": 950
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "fd32f048-ce0e-47f4-9f6d-f1f0efa6854b",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2441,
+      "inference": 1617,
+      "upload_client": 1891
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "32bd253c-5df6-4327-9e3a-21258180650f",
+    "mode": "video",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 10,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "Violence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "num_frames": 43,
+    "timings_ms": {
+      "capture": 6717,
+      "inference": 3952,
+      "upload_client": 4106
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "32bd253c-5df6-4327-9e3a-21258180650f",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 1,
+    "num_frames": 4,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1119,
+      "inference": 390,
+      "upload_client": 664
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "32bd253c-5df6-4327-9e3a-21258180650f",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 2,
+    "num_frames": 9,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 1962,
+      "inference": 652,
+      "upload_client": 759
+    },
+    "ground_truth": "Violence",
+    "is_correct": true
+  },
+  {
+    "clip_id": "32bd253c-5df6-4327-9e3a-21258180650f",
+    "mode": "frames",
+    "device_id": "raspberry_pi_cam_v3",
+    "sampling_fps": 5,
+    "num_frames": 22,
+    "prediction": "Violence",
+    "predictions_by_threshold": {
+      "0.1": "Violence",
+      "0.2": "Violence",
+      "0.3": "Violence",
+      "0.4": "Violence",
+      "0.5": "Violence",
+      "0.6": "Violence",
+      "0.7": "NoViolence",
+      "0.8": "NoViolence",
+      "0.9": "NoViolence"
+    },
+    "timings_ms": {
+      "sampling": 2441,
+      "inference": 1587,
+      "upload_client": 1660
+    },
+    "ground_truth": "Violence",
     "is_correct": true
   }
 ]
