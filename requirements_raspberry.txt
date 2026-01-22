@@ -1,4 +1,2 @@
-# === Raspberry / Edge (ONNX only) ===
-opencv-python-headless
-numpy
+# === Raspberry ===
 requests

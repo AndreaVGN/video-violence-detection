@@ -349,7 +349,6 @@ def view_video(clip_id: str):
     return JSONResponse({"error": "video not ready"}, status_code=404)
 
 
-
 @app.post("/api/confirm")
 async def confirm_event(payload: dict):
     global LAST_EVENT

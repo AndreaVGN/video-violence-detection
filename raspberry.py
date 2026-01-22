@@ -33,8 +33,11 @@ API_PROCESS_FRAMES = f"http://{PC_IP}:{PC_PORT}/api/process_frames"
 # =========================
 # RECORD VIDEO
 # =========================
-def record_video(path):
-    cmd = [
+def record_video(path_mp4):
+    raw_path = path_mp4.replace(".mp4", ".h264")
+
+    # Record raw H.264
+    subprocess.run([
         "rpicam-vid",
         "-t", str(VIDEO_SECONDS * 1000),
         "--width", str(WIDTH),
@@ -43,9 +46,20 @@ def record_video(path):
         "--codec", "h264",
         "--profile", "baseline",
         "--nopreview",
-        "-o", path
-    ]
-    subprocess.run(cmd, check=True)
+        "-o", raw_path
+    ], check=True)
+
+    # Remux to real MP4
+    subprocess.run([
+        "ffmpeg", "-y",
+        "-framerate", str(FPS),
+        "-i", raw_path,
+        "-c", "copy",
+        path_mp4
+    ], check=True)
+
+    os.remove(raw_path)
+
 
 # =========================
 # EXTRACT FRAMES (FFMPEG)
