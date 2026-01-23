@@ -27,7 +27,7 @@ FRAME_DIR = "/home/pi/frames"
 os.makedirs(OUT_DIR, exist_ok=True)
 os.makedirs(FRAME_DIR, exist_ok=True)
 
-DEVICE_ID = "raspberry_pi_cam_v3"
+DEVICE_ID = "raspberry_pi_cam_v2"
 
 API_PROCESS_VIDEO = f"http://{PC_IP}:{PC_PORT}/api/process_video"
 API_PROCESS_FRAMES = f"http://{PC_IP}:{PC_PORT}/api/process_frames"

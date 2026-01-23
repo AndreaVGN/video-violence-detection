@@ -2,7 +2,7 @@
   {
     "clip_id": "c88c363b-e144-421d-b3e3-997e462eeb66",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -28,7 +28,7 @@
   {
     "clip_id": "c88c363b-e144-421d-b3e3-997e462eeb66",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -54,7 +54,7 @@
   {
     "clip_id": "c88c363b-e144-421d-b3e3-997e462eeb66",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -80,7 +80,7 @@
   {
     "clip_id": "c88c363b-e144-421d-b3e3-997e462eeb66",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -106,7 +106,7 @@
   {
     "clip_id": "564e0862-82da-426d-afc9-c57002f0f317",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -132,7 +132,7 @@
   {
     "clip_id": "564e0862-82da-426d-afc9-c57002f0f317",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -158,7 +158,7 @@
   {
     "clip_id": "564e0862-82da-426d-afc9-c57002f0f317",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -184,7 +184,7 @@
   {
     "clip_id": "564e0862-82da-426d-afc9-c57002f0f317",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -210,7 +210,7 @@
   {
     "clip_id": "948a775c-a6b6-458f-b17f-fe786e046db1",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -236,7 +236,7 @@
   {
     "clip_id": "948a775c-a6b6-458f-b17f-fe786e046db1",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -262,7 +262,7 @@
   {
     "clip_id": "948a775c-a6b6-458f-b17f-fe786e046db1",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -288,7 +288,7 @@
   {
     "clip_id": "948a775c-a6b6-458f-b17f-fe786e046db1",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -314,7 +314,7 @@
   {
     "clip_id": "6da57a68-0a29-49cd-8fa4-0b40b73a28cd",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "predictions_by_threshold": {
@@ -340,7 +340,7 @@
   {
     "clip_id": "6da57a68-0a29-49cd-8fa4-0b40b73a28cd",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -366,7 +366,7 @@
   {
     "clip_id": "6da57a68-0a29-49cd-8fa4-0b40b73a28cd",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -392,7 +392,7 @@
   {
     "clip_id": "6da57a68-0a29-49cd-8fa4-0b40b73a28cd",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -418,7 +418,7 @@
   {
     "clip_id": "6e188028-6aa1-4e48-8d47-688b326d890a",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -444,7 +444,7 @@
   {
     "clip_id": "6e188028-6aa1-4e48-8d47-688b326d890a",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -470,7 +470,7 @@
   {
     "clip_id": "6e188028-6aa1-4e48-8d47-688b326d890a",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -496,7 +496,7 @@
   {
     "clip_id": "6e188028-6aa1-4e48-8d47-688b326d890a",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -522,7 +522,7 @@
   {
     "clip_id": "22b92945-4abf-4ea6-90ce-c44b92faad83",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "predictions_by_threshold": {
@@ -548,7 +548,7 @@
   {
     "clip_id": "22b92945-4abf-4ea6-90ce-c44b92faad83",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -574,7 +574,7 @@
   {
     "clip_id": "22b92945-4abf-4ea6-90ce-c44b92faad83",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -600,7 +600,7 @@
   {
     "clip_id": "22b92945-4abf-4ea6-90ce-c44b92faad83",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -626,7 +626,7 @@
   {
     "clip_id": "0f1641b0-fbf6-4f86-8503-021c16c36d63",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "predictions_by_threshold": {
@@ -652,7 +652,7 @@
   {
     "clip_id": "0f1641b0-fbf6-4f86-8503-021c16c36d63",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -678,7 +678,7 @@
   {
     "clip_id": "0f1641b0-fbf6-4f86-8503-021c16c36d63",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -704,7 +704,7 @@
   {
     "clip_id": "0f1641b0-fbf6-4f86-8503-021c16c36d63",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -730,7 +730,7 @@
   {
     "clip_id": "282f20d4-f901-4029-bf8d-4cdab120cb19",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -756,7 +756,7 @@
   {
     "clip_id": "282f20d4-f901-4029-bf8d-4cdab120cb19",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -782,7 +782,7 @@
   {
     "clip_id": "282f20d4-f901-4029-bf8d-4cdab120cb19",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -808,7 +808,7 @@
   {
     "clip_id": "282f20d4-f901-4029-bf8d-4cdab120cb19",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -834,7 +834,7 @@
   {
     "clip_id": "0743ab6c-7fa9-40df-a21f-5c202e99ca75",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "predictions_by_threshold": {
@@ -860,7 +860,7 @@
   {
     "clip_id": "0743ab6c-7fa9-40df-a21f-5c202e99ca75",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -886,7 +886,7 @@
   {
     "clip_id": "0743ab6c-7fa9-40df-a21f-5c202e99ca75",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -912,7 +912,7 @@
   {
     "clip_id": "0743ab6c-7fa9-40df-a21f-5c202e99ca75",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -938,7 +938,7 @@
   {
     "clip_id": "d68ff82c-0836-41ad-a35c-ae857fb8c0db",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -964,7 +964,7 @@
   {
     "clip_id": "d68ff82c-0836-41ad-a35c-ae857fb8c0db",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -990,7 +990,7 @@
   {
     "clip_id": "d68ff82c-0836-41ad-a35c-ae857fb8c0db",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -1016,7 +1016,7 @@
   {
     "clip_id": "d68ff82c-0836-41ad-a35c-ae857fb8c0db",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -1042,7 +1042,7 @@
   {
     "clip_id": "b5096db6-88b2-4eed-a4f0-d5ab349fd73c",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "predictions_by_threshold": {
@@ -1068,7 +1068,7 @@
   {
     "clip_id": "b5096db6-88b2-4eed-a4f0-d5ab349fd73c",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -1094,7 +1094,7 @@
   {
     "clip_id": "b5096db6-88b2-4eed-a4f0-d5ab349fd73c",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -1120,7 +1120,7 @@
   {
     "clip_id": "b5096db6-88b2-4eed-a4f0-d5ab349fd73c",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -1146,7 +1146,7 @@
   {
     "clip_id": "bae56340-951f-4c9f-9d13-9e9cf44c3b23",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "predictions_by_threshold": {
@@ -1172,7 +1172,7 @@
   {
     "clip_id": "bae56340-951f-4c9f-9d13-9e9cf44c3b23",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -1198,7 +1198,7 @@
   {
     "clip_id": "bae56340-951f-4c9f-9d13-9e9cf44c3b23",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -1224,7 +1224,7 @@
   {
     "clip_id": "bae56340-951f-4c9f-9d13-9e9cf44c3b23",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -1250,7 +1250,7 @@
   {
     "clip_id": "a19b87f1-b72e-4d87-baf3-ed2143cf6c1d",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "predictions_by_threshold": {
@@ -1276,7 +1276,7 @@
   {
     "clip_id": "a19b87f1-b72e-4d87-baf3-ed2143cf6c1d",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -1302,7 +1302,7 @@
   {
     "clip_id": "a19b87f1-b72e-4d87-baf3-ed2143cf6c1d",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -1328,7 +1328,7 @@
   {
     "clip_id": "a19b87f1-b72e-4d87-baf3-ed2143cf6c1d",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -1354,7 +1354,7 @@
   {
     "clip_id": "a0fa697c-84f7-40d0-a09a-79527307e83f",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "predictions_by_threshold": {
@@ -1380,7 +1380,7 @@
   {
     "clip_id": "a0fa697c-84f7-40d0-a09a-79527307e83f",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -1406,7 +1406,7 @@
   {
     "clip_id": "a0fa697c-84f7-40d0-a09a-79527307e83f",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -1432,7 +1432,7 @@
   {
     "clip_id": "a0fa697c-84f7-40d0-a09a-79527307e83f",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -1458,7 +1458,7 @@
   {
     "clip_id": "585471b4-2d77-4702-a9ed-8e33141a489d",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "predictions_by_threshold": {
@@ -1484,7 +1484,7 @@
   {
     "clip_id": "585471b4-2d77-4702-a9ed-8e33141a489d",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -1510,7 +1510,7 @@
   {
     "clip_id": "585471b4-2d77-4702-a9ed-8e33141a489d",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -1536,7 +1536,7 @@
   {
     "clip_id": "585471b4-2d77-4702-a9ed-8e33141a489d",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -1562,7 +1562,7 @@
   {
     "clip_id": "22e28a4c-36cd-4a43-944e-c5000aae773a",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "predictions_by_threshold": {
@@ -1588,7 +1588,7 @@
   {
     "clip_id": "22e28a4c-36cd-4a43-944e-c5000aae773a",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -1614,7 +1614,7 @@
   {
     "clip_id": "22e28a4c-36cd-4a43-944e-c5000aae773a",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -1640,7 +1640,7 @@
   {
     "clip_id": "22e28a4c-36cd-4a43-944e-c5000aae773a",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -1666,7 +1666,7 @@
   {
     "clip_id": "8f7753fe-c1db-405f-a977-b85f2739f06d",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -1692,7 +1692,7 @@
   {
     "clip_id": "8f7753fe-c1db-405f-a977-b85f2739f06d",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -1718,7 +1718,7 @@
   {
     "clip_id": "8f7753fe-c1db-405f-a977-b85f2739f06d",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -1744,7 +1744,7 @@
   {
     "clip_id": "8f7753fe-c1db-405f-a977-b85f2739f06d",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -1770,7 +1770,7 @@
   {
     "clip_id": "1c896c04-b8a9-4c92-936e-b2f3c4f83aaf",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "predictions_by_threshold": {
@@ -1796,7 +1796,7 @@
   {
     "clip_id": "1c896c04-b8a9-4c92-936e-b2f3c4f83aaf",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -1822,7 +1822,7 @@
   {
     "clip_id": "1c896c04-b8a9-4c92-936e-b2f3c4f83aaf",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -1848,7 +1848,7 @@
   {
     "clip_id": "1c896c04-b8a9-4c92-936e-b2f3c4f83aaf",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -1874,7 +1874,7 @@
   {
     "clip_id": "7c79eae2-318e-4d36-a702-2798f5199661",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "predictions_by_threshold": {
@@ -1900,7 +1900,7 @@
   {
     "clip_id": "7c79eae2-318e-4d36-a702-2798f5199661",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -1926,7 +1926,7 @@
   {
     "clip_id": "7c79eae2-318e-4d36-a702-2798f5199661",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -1952,7 +1952,7 @@
   {
     "clip_id": "7c79eae2-318e-4d36-a702-2798f5199661",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -1978,7 +1978,7 @@
   {
     "clip_id": "dca1e423-bd91-4592-a055-ecbd39596dc0",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "predictions_by_threshold": {
@@ -2004,7 +2004,7 @@
   {
     "clip_id": "dca1e423-bd91-4592-a055-ecbd39596dc0",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -2030,7 +2030,7 @@
   {
     "clip_id": "dca1e423-bd91-4592-a055-ecbd39596dc0",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -2056,7 +2056,7 @@
   {
     "clip_id": "dca1e423-bd91-4592-a055-ecbd39596dc0",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -2082,7 +2082,7 @@
   {
     "clip_id": "40f8ffe6-88df-40e0-96b4-b859539dee11",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "predictions_by_threshold": {
@@ -2108,7 +2108,7 @@
   {
     "clip_id": "40f8ffe6-88df-40e0-96b4-b859539dee11",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -2134,7 +2134,7 @@
   {
     "clip_id": "40f8ffe6-88df-40e0-96b4-b859539dee11",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -2160,7 +2160,7 @@
   {
     "clip_id": "40f8ffe6-88df-40e0-96b4-b859539dee11",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -2186,7 +2186,7 @@
   {
     "clip_id": "12c0e754-7d12-4997-a324-a12efc9274c0",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "predictions_by_threshold": {
@@ -2212,7 +2212,7 @@
   {
     "clip_id": "12c0e754-7d12-4997-a324-a12efc9274c0",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -2238,7 +2238,7 @@
   {
     "clip_id": "12c0e754-7d12-4997-a324-a12efc9274c0",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -2264,7 +2264,7 @@
   {
     "clip_id": "12c0e754-7d12-4997-a324-a12efc9274c0",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -2290,7 +2290,7 @@
   {
     "clip_id": "7cf87f5c-b6de-4a35-986e-07529e5a7ed2",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "predictions_by_threshold": {
@@ -2316,7 +2316,7 @@
   {
     "clip_id": "7cf87f5c-b6de-4a35-986e-07529e5a7ed2",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -2342,7 +2342,7 @@
   {
     "clip_id": "7cf87f5c-b6de-4a35-986e-07529e5a7ed2",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -2368,7 +2368,7 @@
   {
     "clip_id": "7cf87f5c-b6de-4a35-986e-07529e5a7ed2",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -2394,7 +2394,7 @@
   {
     "clip_id": "b184fdc8-4aaf-4733-8f6f-c1dfd9f1f599",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "predictions_by_threshold": {
@@ -2420,7 +2420,7 @@
   {
     "clip_id": "b184fdc8-4aaf-4733-8f6f-c1dfd9f1f599",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -2446,7 +2446,7 @@
   {
     "clip_id": "b184fdc8-4aaf-4733-8f6f-c1dfd9f1f599",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -2472,7 +2472,7 @@
   {
     "clip_id": "b184fdc8-4aaf-4733-8f6f-c1dfd9f1f599",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -2498,7 +2498,7 @@
   {
     "clip_id": "930a48b6-cdaf-45f2-988e-a153eb7785e3",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -2524,7 +2524,7 @@
   {
     "clip_id": "930a48b6-cdaf-45f2-988e-a153eb7785e3",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -2550,7 +2550,7 @@
   {
     "clip_id": "930a48b6-cdaf-45f2-988e-a153eb7785e3",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -2576,7 +2576,7 @@
   {
     "clip_id": "930a48b6-cdaf-45f2-988e-a153eb7785e3",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -2602,7 +2602,7 @@
   {
     "clip_id": "08b468d3-ab4d-41b8-83eb-99670f8f043a",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "predictions_by_threshold": {
@@ -2628,7 +2628,7 @@
   {
     "clip_id": "08b468d3-ab4d-41b8-83eb-99670f8f043a",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -2654,7 +2654,7 @@
   {
     "clip_id": "08b468d3-ab4d-41b8-83eb-99670f8f043a",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -2680,7 +2680,7 @@
   {
     "clip_id": "08b468d3-ab4d-41b8-83eb-99670f8f043a",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -2706,7 +2706,7 @@
   {
     "clip_id": "c98f5d0e-97c8-45b6-ac84-ea345cde6fad",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -2732,7 +2732,7 @@
   {
     "clip_id": "c98f5d0e-97c8-45b6-ac84-ea345cde6fad",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -2758,7 +2758,7 @@
   {
     "clip_id": "c98f5d0e-97c8-45b6-ac84-ea345cde6fad",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -2784,7 +2784,7 @@
   {
     "clip_id": "c98f5d0e-97c8-45b6-ac84-ea345cde6fad",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -2810,7 +2810,7 @@
   {
     "clip_id": "0ba48be5-b383-4f8f-bc25-918cde740b76",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -2836,7 +2836,7 @@
   {
     "clip_id": "0ba48be5-b383-4f8f-bc25-918cde740b76",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -2862,7 +2862,7 @@
   {
     "clip_id": "0ba48be5-b383-4f8f-bc25-918cde740b76",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -2888,7 +2888,7 @@
   {
     "clip_id": "0ba48be5-b383-4f8f-bc25-918cde740b76",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -2914,7 +2914,7 @@
   {
     "clip_id": "ec1aaa86-623f-438a-a1eb-a11806fd97c1",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "predictions_by_threshold": {
@@ -2940,7 +2940,7 @@
   {
     "clip_id": "ec1aaa86-623f-438a-a1eb-a11806fd97c1",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -2966,7 +2966,7 @@
   {
     "clip_id": "ec1aaa86-623f-438a-a1eb-a11806fd97c1",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -2992,7 +2992,7 @@
   {
     "clip_id": "ec1aaa86-623f-438a-a1eb-a11806fd97c1",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -3018,7 +3018,7 @@
   {
     "clip_id": "b700261c-f7e5-4d8b-86a2-76ffad575fbf",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "predictions_by_threshold": {
@@ -3044,7 +3044,7 @@
   {
     "clip_id": "b700261c-f7e5-4d8b-86a2-76ffad575fbf",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -3070,7 +3070,7 @@
   {
     "clip_id": "b700261c-f7e5-4d8b-86a2-76ffad575fbf",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -3096,7 +3096,7 @@
   {
     "clip_id": "b700261c-f7e5-4d8b-86a2-76ffad575fbf",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "NoViolence",
@@ -3122,7 +3122,7 @@
   {
     "clip_id": "0f46f515-26d2-4c81-a48f-7743007f9cc1",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -3148,7 +3148,7 @@
   {
     "clip_id": "0f46f515-26d2-4c81-a48f-7743007f9cc1",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -3174,7 +3174,7 @@
   {
     "clip_id": "0f46f515-26d2-4c81-a48f-7743007f9cc1",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -3200,7 +3200,7 @@
   {
     "clip_id": "0f46f515-26d2-4c81-a48f-7743007f9cc1",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -3226,7 +3226,7 @@
   {
     "clip_id": "2748a57d-8f84-4931-a9e6-b604dfe258e6",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -3252,7 +3252,7 @@
   {
     "clip_id": "2748a57d-8f84-4931-a9e6-b604dfe258e6",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -3278,7 +3278,7 @@
   {
     "clip_id": "2748a57d-8f84-4931-a9e6-b604dfe258e6",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -3304,7 +3304,7 @@
   {
     "clip_id": "2748a57d-8f84-4931-a9e6-b604dfe258e6",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -3330,7 +3330,7 @@
   {
     "clip_id": "7900d0cd-8b88-4a20-9eda-91b21d3504be",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -3356,7 +3356,7 @@
   {
     "clip_id": "7900d0cd-8b88-4a20-9eda-91b21d3504be",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -3382,7 +3382,7 @@
   {
     "clip_id": "7900d0cd-8b88-4a20-9eda-91b21d3504be",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -3408,7 +3408,7 @@
   {
     "clip_id": "7900d0cd-8b88-4a20-9eda-91b21d3504be",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -3434,7 +3434,7 @@
   {
     "clip_id": "41e150c3-8423-4955-b0c4-fc2ab8662842",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -3460,7 +3460,7 @@
   {
     "clip_id": "41e150c3-8423-4955-b0c4-fc2ab8662842",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -3486,7 +3486,7 @@
   {
     "clip_id": "41e150c3-8423-4955-b0c4-fc2ab8662842",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -3512,7 +3512,7 @@
   {
     "clip_id": "41e150c3-8423-4955-b0c4-fc2ab8662842",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -3538,7 +3538,7 @@
   {
     "clip_id": "c67df8de-855e-4c0d-a52c-ce12e0d58002",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -3564,7 +3564,7 @@
   {
     "clip_id": "c67df8de-855e-4c0d-a52c-ce12e0d58002",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -3590,7 +3590,7 @@
   {
     "clip_id": "c67df8de-855e-4c0d-a52c-ce12e0d58002",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -3616,7 +3616,7 @@
   {
     "clip_id": "c67df8de-855e-4c0d-a52c-ce12e0d58002",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -3642,7 +3642,7 @@
   {
     "clip_id": "e4af9073-7194-4757-92d1-cb80525f4dc1",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -3668,7 +3668,7 @@
   {
     "clip_id": "e4af9073-7194-4757-92d1-cb80525f4dc1",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -3694,7 +3694,7 @@
   {
     "clip_id": "e4af9073-7194-4757-92d1-cb80525f4dc1",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -3720,7 +3720,7 @@
   {
     "clip_id": "e4af9073-7194-4757-92d1-cb80525f4dc1",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -3746,7 +3746,7 @@
   {
     "clip_id": "28b92e83-8f12-4f06-9dd7-919fa44cb604",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -3772,7 +3772,7 @@
   {
     "clip_id": "28b92e83-8f12-4f06-9dd7-919fa44cb604",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -3798,7 +3798,7 @@
   {
     "clip_id": "28b92e83-8f12-4f06-9dd7-919fa44cb604",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -3824,7 +3824,7 @@
   {
     "clip_id": "28b92e83-8f12-4f06-9dd7-919fa44cb604",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -3850,7 +3850,7 @@
   {
     "clip_id": "fa73e0f4-ff99-4957-b708-06067ed78265",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -3876,7 +3876,7 @@
   {
     "clip_id": "fa73e0f4-ff99-4957-b708-06067ed78265",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -3902,7 +3902,7 @@
   {
     "clip_id": "fa73e0f4-ff99-4957-b708-06067ed78265",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -3928,7 +3928,7 @@
   {
     "clip_id": "fa73e0f4-ff99-4957-b708-06067ed78265",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -3954,7 +3954,7 @@
   {
     "clip_id": "241bf49a-48a5-4049-9e64-b09fe09c6bca",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -3980,7 +3980,7 @@
   {
     "clip_id": "241bf49a-48a5-4049-9e64-b09fe09c6bca",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -4006,7 +4006,7 @@
   {
     "clip_id": "241bf49a-48a5-4049-9e64-b09fe09c6bca",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -4032,7 +4032,7 @@
   {
     "clip_id": "241bf49a-48a5-4049-9e64-b09fe09c6bca",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -4058,7 +4058,7 @@
   {
     "clip_id": "3b755a02-d14b-4fe5-9ece-20afb9b320c6",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -4084,7 +4084,7 @@
   {
     "clip_id": "3b755a02-d14b-4fe5-9ece-20afb9b320c6",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -4110,7 +4110,7 @@
   {
     "clip_id": "3b755a02-d14b-4fe5-9ece-20afb9b320c6",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -4136,7 +4136,7 @@
   {
     "clip_id": "3b755a02-d14b-4fe5-9ece-20afb9b320c6",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -4162,7 +4162,7 @@
   {
     "clip_id": "d535d424-f019-464a-8104-ba3b5a19af4e",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -4188,7 +4188,7 @@
   {
     "clip_id": "d535d424-f019-464a-8104-ba3b5a19af4e",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -4214,7 +4214,7 @@
   {
     "clip_id": "d535d424-f019-464a-8104-ba3b5a19af4e",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -4240,7 +4240,7 @@
   {
     "clip_id": "d535d424-f019-464a-8104-ba3b5a19af4e",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -4266,7 +4266,7 @@
   {
     "clip_id": "fd5d7b77-6eee-4bbc-9a6c-67e98d8b7b8a",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -4292,7 +4292,7 @@
   {
     "clip_id": "fd5d7b77-6eee-4bbc-9a6c-67e98d8b7b8a",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -4318,7 +4318,7 @@
   {
     "clip_id": "fd5d7b77-6eee-4bbc-9a6c-67e98d8b7b8a",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -4344,7 +4344,7 @@
   {
     "clip_id": "fd5d7b77-6eee-4bbc-9a6c-67e98d8b7b8a",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -4370,7 +4370,7 @@
   {
     "clip_id": "90fceac3-9c45-4eff-9177-7dd6aa119c74",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -4396,7 +4396,7 @@
   {
     "clip_id": "90fceac3-9c45-4eff-9177-7dd6aa119c74",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -4422,7 +4422,7 @@
   {
     "clip_id": "90fceac3-9c45-4eff-9177-7dd6aa119c74",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -4448,7 +4448,7 @@
   {
     "clip_id": "90fceac3-9c45-4eff-9177-7dd6aa119c74",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -4474,7 +4474,7 @@
   {
     "clip_id": "3d08945b-9342-4638-b678-6e6429073140",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -4500,7 +4500,7 @@
   {
     "clip_id": "3d08945b-9342-4638-b678-6e6429073140",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -4526,7 +4526,7 @@
   {
     "clip_id": "3d08945b-9342-4638-b678-6e6429073140",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -4552,7 +4552,7 @@
   {
     "clip_id": "3d08945b-9342-4638-b678-6e6429073140",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -4578,7 +4578,7 @@
   {
     "clip_id": "a1cb915d-e2ac-4498-857f-cb31cf8efd9e",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -4604,7 +4604,7 @@
   {
     "clip_id": "a1cb915d-e2ac-4498-857f-cb31cf8efd9e",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -4630,7 +4630,7 @@
   {
     "clip_id": "a1cb915d-e2ac-4498-857f-cb31cf8efd9e",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -4656,7 +4656,7 @@
   {
     "clip_id": "a1cb915d-e2ac-4498-857f-cb31cf8efd9e",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -4682,7 +4682,7 @@
   {
     "clip_id": "be5d0425-5792-4171-96d6-282ac625dab5",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -4708,7 +4708,7 @@
   {
     "clip_id": "be5d0425-5792-4171-96d6-282ac625dab5",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -4734,7 +4734,7 @@
   {
     "clip_id": "be5d0425-5792-4171-96d6-282ac625dab5",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -4760,7 +4760,7 @@
   {
     "clip_id": "be5d0425-5792-4171-96d6-282ac625dab5",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -4786,7 +4786,7 @@
   {
     "clip_id": "7357b591-d043-4f89-8818-aaca639ff6e8",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -4812,7 +4812,7 @@
   {
     "clip_id": "7357b591-d043-4f89-8818-aaca639ff6e8",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -4838,7 +4838,7 @@
   {
     "clip_id": "7357b591-d043-4f89-8818-aaca639ff6e8",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -4864,7 +4864,7 @@
   {
     "clip_id": "7357b591-d043-4f89-8818-aaca639ff6e8",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -4890,7 +4890,7 @@
   {
     "clip_id": "569cadac-1803-446c-ae63-5414efe59039",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -4916,7 +4916,7 @@
   {
     "clip_id": "569cadac-1803-446c-ae63-5414efe59039",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -4942,7 +4942,7 @@
   {
     "clip_id": "569cadac-1803-446c-ae63-5414efe59039",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -4968,7 +4968,7 @@
   {
     "clip_id": "569cadac-1803-446c-ae63-5414efe59039",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -4994,7 +4994,7 @@
   {
     "clip_id": "811f2810-4da9-4755-9bb1-40572a8b0e3c",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -5020,7 +5020,7 @@
   {
     "clip_id": "811f2810-4da9-4755-9bb1-40572a8b0e3c",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -5046,7 +5046,7 @@
   {
     "clip_id": "811f2810-4da9-4755-9bb1-40572a8b0e3c",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -5072,7 +5072,7 @@
   {
     "clip_id": "811f2810-4da9-4755-9bb1-40572a8b0e3c",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -5098,7 +5098,7 @@
   {
     "clip_id": "82a67f08-0a52-4d8e-977b-89a582c6159a",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -5124,7 +5124,7 @@
   {
     "clip_id": "82a67f08-0a52-4d8e-977b-89a582c6159a",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -5150,7 +5150,7 @@
   {
     "clip_id": "82a67f08-0a52-4d8e-977b-89a582c6159a",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -5176,7 +5176,7 @@
   {
     "clip_id": "82a67f08-0a52-4d8e-977b-89a582c6159a",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -5202,7 +5202,7 @@
   {
     "clip_id": "053bec3e-13c1-47f9-ab94-93c02101439a",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -5228,7 +5228,7 @@
   {
     "clip_id": "053bec3e-13c1-47f9-ab94-93c02101439a",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -5254,7 +5254,7 @@
   {
     "clip_id": "053bec3e-13c1-47f9-ab94-93c02101439a",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -5280,7 +5280,7 @@
   {
     "clip_id": "053bec3e-13c1-47f9-ab94-93c02101439a",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -5306,7 +5306,7 @@
   {
     "clip_id": "afd42216-e6aa-4652-9e28-39795869b16f",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -5332,7 +5332,7 @@
   {
     "clip_id": "afd42216-e6aa-4652-9e28-39795869b16f",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -5358,7 +5358,7 @@
   {
     "clip_id": "afd42216-e6aa-4652-9e28-39795869b16f",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -5384,7 +5384,7 @@
   {
     "clip_id": "afd42216-e6aa-4652-9e28-39795869b16f",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -5410,7 +5410,7 @@
   {
     "clip_id": "4aa46fee-43a8-454a-99ba-276f55d112dc",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -5436,7 +5436,7 @@
   {
     "clip_id": "4aa46fee-43a8-454a-99ba-276f55d112dc",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -5462,7 +5462,7 @@
   {
     "clip_id": "4aa46fee-43a8-454a-99ba-276f55d112dc",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -5488,7 +5488,7 @@
   {
     "clip_id": "4aa46fee-43a8-454a-99ba-276f55d112dc",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -5514,7 +5514,7 @@
   {
     "clip_id": "301fe337-f6de-413d-bf26-f4100b9dd59c",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "NoViolence",
     "predictions_by_threshold": {
@@ -5540,7 +5540,7 @@
   {
     "clip_id": "301fe337-f6de-413d-bf26-f4100b9dd59c",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -5566,7 +5566,7 @@
   {
     "clip_id": "301fe337-f6de-413d-bf26-f4100b9dd59c",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -5592,7 +5592,7 @@
   {
     "clip_id": "301fe337-f6de-413d-bf26-f4100b9dd59c",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -5618,7 +5618,7 @@
   {
     "clip_id": "cc7885ef-ff5b-4cc1-b5cb-3a47f81737ac",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -5644,7 +5644,7 @@
   {
     "clip_id": "cc7885ef-ff5b-4cc1-b5cb-3a47f81737ac",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -5670,7 +5670,7 @@
   {
     "clip_id": "cc7885ef-ff5b-4cc1-b5cb-3a47f81737ac",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -5696,7 +5696,7 @@
   {
     "clip_id": "cc7885ef-ff5b-4cc1-b5cb-3a47f81737ac",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -5722,7 +5722,7 @@
   {
     "clip_id": "0ecc255b-e559-474a-a8e7-ee7e61bbd997",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -5748,7 +5748,7 @@
   {
     "clip_id": "0ecc255b-e559-474a-a8e7-ee7e61bbd997",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -5774,7 +5774,7 @@
   {
     "clip_id": "0ecc255b-e559-474a-a8e7-ee7e61bbd997",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -5800,7 +5800,7 @@
   {
     "clip_id": "0ecc255b-e559-474a-a8e7-ee7e61bbd997",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -5826,7 +5826,7 @@
   {
     "clip_id": "4a9ca4d0-576f-4a22-88cc-3f4b2718f9a0",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -5852,7 +5852,7 @@
   {
     "clip_id": "4a9ca4d0-576f-4a22-88cc-3f4b2718f9a0",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -5878,7 +5878,7 @@
   {
     "clip_id": "4a9ca4d0-576f-4a22-88cc-3f4b2718f9a0",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "NoViolence",
@@ -5904,7 +5904,7 @@
   {
     "clip_id": "4a9ca4d0-576f-4a22-88cc-3f4b2718f9a0",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -5930,7 +5930,7 @@
   {
     "clip_id": "2e75db8f-b4f5-46c8-81e1-5ea9864f645c",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -5956,7 +5956,7 @@
   {
     "clip_id": "2e75db8f-b4f5-46c8-81e1-5ea9864f645c",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -5982,7 +5982,7 @@
   {
     "clip_id": "2e75db8f-b4f5-46c8-81e1-5ea9864f645c",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -6008,7 +6008,7 @@
   {
     "clip_id": "2e75db8f-b4f5-46c8-81e1-5ea9864f645c",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -6034,7 +6034,7 @@
   {
     "clip_id": "fd32f048-ce0e-47f4-9f6d-f1f0efa6854b",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -6060,7 +6060,7 @@
   {
     "clip_id": "fd32f048-ce0e-47f4-9f6d-f1f0efa6854b",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "NoViolence",
@@ -6086,7 +6086,7 @@
   {
     "clip_id": "fd32f048-ce0e-47f4-9f6d-f1f0efa6854b",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -6112,7 +6112,7 @@
   {
     "clip_id": "fd32f048-ce0e-47f4-9f6d-f1f0efa6854b",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
@@ -6138,7 +6138,7 @@
   {
     "clip_id": "32bd253c-5df6-4327-9e3a-21258180650f",
     "mode": "video",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 10,
     "prediction": "Violence",
     "predictions_by_threshold": {
@@ -6164,7 +6164,7 @@
   {
     "clip_id": "32bd253c-5df6-4327-9e3a-21258180650f",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 1,
     "num_frames": 4,
     "prediction": "Violence",
@@ -6190,7 +6190,7 @@
   {
     "clip_id": "32bd253c-5df6-4327-9e3a-21258180650f",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 2,
     "num_frames": 9,
     "prediction": "Violence",
@@ -6216,7 +6216,7 @@
   {
     "clip_id": "32bd253c-5df6-4327-9e3a-21258180650f",
     "mode": "frames",
-    "device_id": "raspberry_pi_cam_v3",
+    "device_id": "raspberry_pi_cam_v2",
     "sampling_fps": 5,
     "num_frames": 22,
     "prediction": "Violence",
