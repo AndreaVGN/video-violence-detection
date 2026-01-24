@@ -9,7 +9,7 @@ videos/
 # logs/
 *.mp4
 
-# Models (se non vuoi versionarli)
+# Models 
 # *.pt
 # *.onnx
 
